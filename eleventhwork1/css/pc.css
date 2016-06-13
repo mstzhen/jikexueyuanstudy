@@ -1,0 +1,1514 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Verdana", "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+  min-width: 1000px;
+}
+header {
+  height: 62px;
+  width: 100%;
+}
+header > div {
+  width: 1000px;
+  height: 50px;
+  margin: 10px auto;
+}
+.imglogo {
+  margin-top: 4px;
+  cursor: pointer;
+}
+.topsearch {
+  display: inline-block;
+  margin-left: 183px;
+  position: relative;
+  top: -16px;
+}
+input::-webkit-input-placeholder {
+  color: gray !important;
+  font-size: 12px;
+  font-family: "Verdana", "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+}
+.topsearchonein {
+  width: 378px;
+  height: 36px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  padding-left: 12px;
+  margin: 0px;
+}
+.topsearchtwoin {
+  width: 40px;
+  height: 38px;
+  background: url(../imgs/header/topsearch1.png) center center no-repeat;
+  position: relative;
+  top: -1px;
+  left: -46px;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+}
+.tipsearch {
+  position: absolute;
+  left: -242px;
+  top: 8px;
+  left: 200px;
+}
+@-moz-document url-prefix() {
+  .topsearchtwoin {
+    top: 0px;
+  }
+  .tipsearch {
+    top: 8px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .topsearchtwoin {
+    top: 14px;
+  }
+  .tipsearch {
+    top: 22px;
+  }
+}
+.tipsearch > a {
+  margin-left: 5px;
+  color: gray;
+  background: #f3f3f3;
+  font-size: 13px;
+  padding: 1px 3px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Verdana", "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+}
+.loginbox {
+  float: right;
+  width: 209px;
+  position: relative;
+  top: 18px;
+}
+.loginbox a {
+  margin-left: 11px;
+  font-family: "Verdana", "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 11px;
+  color: #333;
+  cursor: pointer;
+}
+.mymessage {
+  width: 16px;
+  margin-right: 11px;
+  cursor: pointer;
+}
+/* 以上是为头部css设置部分 */
+nav {
+  width: 100%;
+  height: 42px;
+  border-top: 2px solid #35b558;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0px 2px 0px #f7f7f7;
+}
+nav > div {
+  width: 1000px;
+  margin: 0px auto;
+}
+nav > div > div > ul {
+  list-style: none;
+}
+nav > div > div > ul > li {
+  list-style: none;
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  position: relative;
+  z-index: 1px;
+  font-size: 14px;
+}
+nav > div > div > ul > li a {
+  color: #000;
+  text-decoration: none;
+}
+nav > div > div > ul > li a:hover {
+  color: #38b55a;
+}
+nav > div > div > ul > li > ul {
+  list-style: none;
+  /*  background: url(../imgs/nav/liulbjt.png) center -2px no-repeat;  */
+  position: relative;
+  z-index: 999;
+  height: 146px;
+  top: -6px;
+  font-size: 12px;
+  display: none;
+}
+nav > div > div > ul > li > ul > li {
+  height: 30px;
+  text-align: left;
+  padding-left: 18px;
+}
+.firstligap {
+  padding-top: 10px;
+}
+.index {
+  width: 52px;
+  text-align: left;
+}
+.othernav {
+  width: 120px;
+  text-align: center;
+}
+nav div > div > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+  margin-left: 18px;
+}
+nav div > div > a:hover {
+  color: #38b55a;
+}
+.navseconddiv {
+  float: right;
+  margin-top: 10px;
+}
+.imggapmenu {
+  margin-right: 4px;
+}
+.ulbtndiv {
+  width: 1000px;
+  height: 139px;
+  opacity: 0.9;
+  border: 1px solid #f7f7f7;
+  position: absolute;
+  top: 116px;
+  z-index: 222;
+  display: none;
+  background: #fff;
+}
+.ulbtndivson1 {
+  border-right: 1px solid #f7f7f7;
+  width: 51px;
+  height: 139px;
+  float: left;
+}
+.ulbtndivson2 {
+  border-right: 1px solid #f7f7f7;
+  width: 119px;
+  height: 139px;
+  float: left;
+}
+/* 正文部分css     */
+article {
+  width: 1000px;
+  margin: 0 auto;
+}
+.sectionone {
+  height: 372px;
+  margin-top: 20px;
+  position: relative;
+}
+.sectionone .vnav ul {
+  list-style: none;
+  height: 369px;
+  width: 208px;
+  border-top: 2px solid #38b55a;
+}
+.sectionone .vnav ul li {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 16px;
+  border-bottom: 1px solid #dedede;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  background: url(../imgs/article/more-icon.png) 186px center no-repeat;
+  background-size: 6px 10px;
+}
+.hiddenlocal {
+  position: relative;
+}
+.vnav {
+  float: left;
+  font-size: 13px;
+}
+.vnav a {
+  color: #000;
+  text-decoration: none;
+}
+.vnavconent {
+  width: 400px;
+  height: 370px;
+  margin-left: 210px;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  position: absolute;
+  display: none;
+  left: -2px;
+  z-index: 1;
+  background: #fff;
+}
+.vnavconent p {
+  font-size: 12px;
+  margin-top: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dedede;
+}
+.vnavconent a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+}
+.vnavconent a:hover {
+  color: #38b55a;
+}
+.vnavconent span {
+  color: #dedede;
+  font-weight: lighter;
+}
+.vnavconentfirsta {
+  margin-left: 8px;
+}
+/* 垂直菜单栏部分结束，轮播设置开始*/
+.lunbo {
+  margin-left: 218px;
+}
+.lunbo1 {
+  width: 560px;
+  height: 260px;
+  position: relative;
+  cursor: pointer;
+}
+.lunbo1 .left {
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  background: #222222 url(../imgs/article/left.png) center center no-repeat;
+  opacity: 0.8;
+  top: 50%;
+  margin-top: -25px;
+  display: none;
+}
+.lunbo1 .left:hover {
+  opacity: 1;
+}
+.lunbo1 .right {
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  background: #222222 url(../imgs/article/right.png) center center no-repeat;
+  opacity: 0.8;
+  top: 50%;
+  margin-top: -25px;
+  right: 0px;
+  display: none;
+}
+.lunbo1 .right:hover {
+  opacity: 1;
+}
+.lunbo1 div a {
+  position: absolute;
+}
+.lunbo1 ul {
+  list-style: none;
+  position: absolute;
+  top: 246px;
+  left: 202px;
+}
+.lunbo1 ul li {
+  float: left;
+  margin-right: 20px;
+  width: 38px;
+  height: 4px;
+  position: relative;
+  background: url(../imgs/article/swiper.jpg);
+  cursor: pointer;
+}
+#lunbo1_list {
+  display: none;
+}
+/* 轮播2     */
+.lunbo2 {
+  width: 559px;
+  height: 100px;
+  font-size: 12px;
+  color: #000;
+  overflow: hidden;
+  border: 1px solid #dedede;
+  margin-top: 10px;
+  position: relative;
+}
+.lunbo2 ul {
+  width: 2000px;
+  list-style: none;
+  left: 0;
+  position: absolute;
+}
+.lunbo2 ul li {
+  width: 186px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #dedede;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.lunbo2 ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.lunbo2 .leftag {
+  position: absolute;
+  background: #999999;
+  width: 25px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  top: 50%;
+  margin-top: -20px;
+  display: none;
+  cursor: pointer;
+}
+.lunbo2 .leftag:hover {
+  background: #000;
+}
+.lunbo2 .rightag {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  background: #999999;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  top: 50%;
+  margin-top: -20px;
+  right: 0;
+  display: none;
+  cursor: pointer;
+}
+.lunbo2 .rightag:hover {
+  background: #000;
+}
+.ponecolor {
+  color: #333;
+}
+.ptwocolor {
+  color: #666;
+}
+/* 快讯盒子 */
+.knews {
+  width: 208px;
+  height: 372px;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  position: absolute;
+  top: 0px;
+  font-size: 12px;
+  right: 0;
+}
+.knews ul {
+  list-style: none;
+}
+.firstli {
+  height: 130px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+.firstli h3 {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+.firstli p {
+  line-height: 22px;
+  margin-left: 12px;
+}
+.firstli p a[href="http://qun.jikexueyuan.com/activity/topic/386?huodong=yuedu_kuaixun_0321"] {
+  color: red;
+  text-decoration: none;
+}
+.firstli p a[href="http://qun.jikexueyuan.com/activity/topic/331?huodong=free_kuaixun_0307"] {
+  color: #666;
+  text-decoration: none;
+}
+.firstli p a[href="http://qun.jikexueyuan.com/activity/topic/400?huodong=kuaixun_0324"] {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.firstli p a[href="http://jiuye.jikexueyuan.com/assistant/apply?huodong=jianzhi_kuaixun"] {
+  color: #666;
+  text-decoration: none;
+}
+.secondli {
+  height: 86px;
+  border-bottom: 1px solid #dedede;
+  position: relative;
+}
+.thirdli {
+  border-bottom: 1px solid #dedede;
+  height: 152px;
+}
+.thirdli .anglebottom {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #E4E4E4;
+  box-sizing: content-box;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  margin: 0 auto;
+}
+.thirdli ul li {
+  width: 51px;
+  border-bottom: 1px solid #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+  float: left;
+  height: 76px;
+  line-height: 23px;
+  text-align: center;
+}
+.thirdli ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.thirdli ul li:hover a {
+  color: #35b558;
+}
+.thirdli ul li:hover a .downloadicon {
+  background: url(../imgs/article/recommend.png) -41px -117px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.thirdli ul li:hover a .knowicon {
+  background: url(../imgs/article/recommend.png) -41px -144px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.thirdli ul li:hover a .occupationicon {
+  background: url(../imgs/article/recommend.png) -41px -173px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.thirdli ul li:hover a .vipicon {
+  background: url(../imgs/article/recommend.png) -41px -202px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+/*   .occupationicon,.knowicon,.vipicon */
+.questionicon {
+  background: url(../imgs/article/recommend.png) -5px -3px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.wikiicon {
+  background: url(../imgs/article/recommend.png) -5px -31px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.lessionicon {
+  background: url(../imgs/article/recommend.png) -5px -59px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.groupicon {
+  background: url(../imgs/article/recommend.png) -5px -87px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.downloadicon {
+  background: url(../imgs/article/recommend.png) -5px -117px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.knowicon {
+  background: url(../imgs/article/recommend.png) -5px -144px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.occupationicon {
+  background: url(../imgs/article/recommend.png) -5px -173px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+.vipicon {
+  background: url(../imgs/article/recommend.png) -5px -202px no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 13px auto 0;
+  background-size: 71px 232px;
+}
+#hiddendiv {
+  position: absolute;
+}
+#navul {
+  display: none;
+}
+#hiddendiv ul li {
+  width: 51px;
+  height: 24px;
+  border-bottom: 1px solid #F5F5F5;
+  text-align: center;
+  line-height: 24px;
+}
+#conent0 {
+  display: none;
+}
+#hidquescon ul li a {
+  color: #666;
+  line-height: 24px;
+  height: 24px;
+}
+#hidquescon ul li a:hover {
+  color: #35b558;
+  cursor: pointer;
+}
+#hidquescon ul li a img {
+  position: relative;
+  top: -3px;
+  left: 5px;
+}
+#hidquescon ul li a span {
+  margin-left: -4px;
+  overflow: hidden;
+  width: 194px;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+#conent1 {
+  margin: 15px 10px;
+  display: none;
+}
+#hidwiki ul li {
+  float: left;
+  width: 54px;
+  font-size: 12px;
+  margin-right: 7px;
+  padding-top: 15px;
+  border: none;
+}
+#hidwiki ul li a p {
+  display: block;
+  margin-top: -8px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#conent2 {
+  display: none;
+}
+#hidlession ul li {
+  width: 103px;
+  height: 64px;
+  float: left;
+  cursor: pointer;
+}
+#hidlession ul li a img {
+  padding-top: 12px;
+}
+#hidlession ul li a p {
+  text-align: center;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: -8px;
+}
+#conent3 {
+  display: none;
+}
+#hidgroup ul li {
+  height: 64px;
+  width: 208px;
+  padding: 16px 10px 10px 10px;
+  box-sizing: border-box;
+}
+#hidgroup ul li img {
+  float: left;
+}
+#hidgroup ul li div {
+  float: left;
+  width: 95px;
+}
+#hidgroup ul li .title {
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#hidgroup ul li .count {
+  color: #666;
+  margin-top: -7px;
+}
+#hidgroup ul li a {
+  float: left;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  color: #FFF;
+  background: #ff5c00;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+.secondli .firstp {
+  float: left;
+  margin-top: 14px;
+  margin-left: 14px;
+}
+.secondli .secondp {
+  padding-top: 14px;
+  padding-left: 66px;
+  color: #666;
+}
+.secondli .thirdp {
+  padding-top: 2px;
+  padding-left: 66px;
+  color: #333;
+}
+.secondli .fourthp {
+  padding-top: 7px;
+  padding-left: 66px;
+}
+.secondli .fourthp .inputone {
+  color: #fff;
+  font-size: 12px;
+  width: 48px;
+  height: 20px;
+  display: inline-block;
+  background: #FB5D20;
+  text-align: center;
+  line-height: 20px;
+}
+.secondli .fourthp .inputtwo {
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  width: 48px;
+  height: 20px;
+  background: #35b558;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+/* 极客公开课开始  */
+.moon {
+  width: 1000px;
+  height: 198px;
+  margin-top: 10px;
+}
+.moonleft {
+  width: 207px;
+  height: 198px;
+  border: 1px solid #dedede;
+  float: left;
+}
+.moonright {
+  width: 792px;
+  height: 199px;
+  border-bottom: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  margin-left: 208px;
+  position: relative;
+}
+.moonright ul {
+  list-style: none;
+  width: 793px;
+  height: 38px;
+}
+.moonright ul li {
+  height: 38px;
+  float: left;
+  text-align: center;
+  line-height: 38px;
+  font-size: 12px;
+}
+.topbottomb {
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  width: 158px;
+}
+.moonimg img {
+  position: absolute;
+  top: 44px;
+  left: 12px;
+}
+.hoverfun1 {
+  color: #35b558;
+  border-bottom: 0px;
+  border-right: 1px solid #dedede;
+  border-left: 1px solid #dedede;
+  border-top: 2px solid #35b558;
+  width: 158px;
+}
+.hoverfun0 {
+  color: #35b558;
+  border-bottom: 0px;
+  border-right: 1px solid #dedede;
+  border-top: 2px solid #35b558;
+  width: 158px;
+}
+.hoverfun2 {
+  color: #35b558;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 1px solid #dedede;
+  border-top: 2px solid #35b558;
+  width: 158px;
+}
+.imghidden {
+  display: none;
+}
+.imgshow {
+  display: block;
+}
+/* 课程展示   */
+.classshow {
+  width: 1000px;
+  margin-top: 20px;
+}
+.classshow > ul {
+  list-style: none;
+  background: url(../imgs/article/hotnav.jpg) 0 100% repeat-x;
+  height: 41px;
+  width: 1000px;
+}
+.classshowulli {
+  color: #666;
+  font-size: 14px;
+  width: 16.6%;
+  height: 41px;
+  float: left;
+  text-align: center;
+  line-height: 41px;
+}
+.ullibackground {
+  background: url(../imgs/article/angle.jpg) -3px 35px no-repeat;
+  color: #35b558;
+}
+.ullibackgroundlast {
+  background: url(../imgs/article/angle.jpg) -4px 35px no-repeat;
+  color: #35b558;
+}
+.classshows ul {
+  width: 1000px;
+  list-style: none;
+  position: absolute;
+}
+.classshows ul li {
+  float: left;
+  width: 233px;
+  height: 217px;
+  position: relative;
+  margin-top: 18px;
+}
+.classshows ul li .stretchdiv {
+  height: 88px;
+  width: 231px;
+  position: absolute;
+  left: 0px;
+  top: 125px;
+  border-bottom: 1px solid #dedede;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  z-index: 200;
+  background: #fff;
+}
+.classshows ul li .parentdiv {
+  left: 0px;
+  top: 127px;
+}
+.classshows ul li .parentdiv .divson {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 12px;
+  color: gray;
+  position: relative;
+}
+.classshows ul li .divh2 {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.classshows ul li .divp {
+  width: 213px;
+  height: 52px;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 30px;
+  overflow: hidden;
+  color: gray;
+  display: none;
+}
+.classshows ul li .divson .fp {
+  float: left;
+}
+.classshows ul li .divson .sp {
+  position: absolute;
+  right: 7px;
+  top: 0px;
+  display: none;
+}
+.classshows ul li .divson .tp {
+  clear: both;
+  padding-top: 5px;
+  display: none;
+}
+.classshows ul li .divson .fop {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  right: 7px;
+  top: 0px;
+}
+.limarginl {
+  margin-left: 20px;
+}
+.classshows ul li a > img {
+  width: 233px;
+  position: absolute;
+}
+.zhaozi {
+  display: none;
+}
+/* 滑动之后为88+52+36=167,之前是88px*/
+.classshowligap {
+  margin-top: 20px;
+}
+/* 职业路径图 */
+.careeroad {
+  width: 991px;
+  margin-top: 510px;
+  position: relative;
+}
+.careesondiv {
+  font-size: 0px;
+  margin-top: 20px;
+}
+.sondivaborderlast {
+  border-right: 1px solid #dedede;
+}
+.careesondiv .sondivaborder {
+  width: 197px;
+  height: 300px;
+  display: inline-block;
+  padding: 0;
+  margin: 0px;
+  font-size: 0px;
+  border-left: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+}
+.sondivaborderbottom {
+  border-bottom: 1px solid #dedede;
+}
+.careesondiv a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-family: "Verdana", "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+}
+.careesondiv a img {
+  font-size: 0px;
+}
+.careesondiv a h2 {
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  margin-top: 26px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 26px;
+}
+.careesondiv a p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+.sondivbutton {
+  width: 140px;
+  height: 34px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 34px;
+  color: #35b558;
+  background: #f3fff6;
+  font-size: 16px;
+  border: 1px solid #35b558;
+  font-weight: 400;
+  cursor: pointer;
+  outline: 0;
+  font-family: "Verdana", "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+}
+.careeroad .careeheader {
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+}
+.careeroad .question {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #999;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 2px;
+  position: relative;
+  top: -5px;
+}
+.careeroad .careemore {
+  font-size: 12px;
+  float: right;
+  color: #2d85ca;
+  text-decoration: none;
+}
+.carsystem {
+  background: url(../imgs/article/syscaree.jpg) -3px -3px no-repeat;
+  width: 158px;
+  height: 23px;
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+  position: absolute;
+  left: 115px;
+  top: -3px;
+  line-height: 23px;
+  text-align: center;
+  display: none;
+}
+/* 知识体系图   */
+.knowsys {
+  margin-top: 30px;
+  position: relative;
+  width: 990px;
+}
+.knowsys .sysquestion {
+  font-size: 12px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #999;
+  color: #fff;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 13px;
+}
+.knowsys .sysmore {
+  font-size: 12px;
+  float: right;
+  color: #2d85ca;
+  text-decoration: none;
+}
+.knowsys ul {
+  width: 998px;
+  height: 481px;
+  margin-top: 20px;
+}
+.knowsys ul li {
+  width: 164px;
+  height: 120px;
+  list-style: none;
+  float: left;
+  text-align: center;
+  border-left: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  position: relative;
+  perspective: 1000;
+}
+.knowsys .sixborder {
+  border-right: 1px solid #dedede;
+}
+.knowsys .lastcolumn {
+  border-bottom: 1px solid #dedede;
+}
+.knowsys a {
+  text-decoration: none;
+}
+.knowsys a img {
+  width: 40px;
+  height: 40px;
+  margin-top: 14px;
+}
+.knowsys a .firstp {
+  color: #333;
+  font-size: 15px;
+  margin-top: 2px;
+}
+.knowsys a .secondp {
+  color: #35b558;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.knowsystitle {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+}
+.questionans {
+  display: inline-block;
+  width: 146px;
+  height: 23px;
+  background: url(../imgs/article/sysknow.jpg) -3px -2px no-repeat;
+  left: 112px;
+  position: absolute;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  line-height: 23px;
+  display: none;
+  top: 0;
+}
+.knowsys ul li:hover .fbparent {
+  transform: rotateY(180deg);
+}
+.fbparent {
+  position: absolute;
+  width: 164px;
+  height: 120px;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.front {
+  z-index: 180;
+  position: absolute;
+  background: #fff;
+  height: 120px;
+  width: 164px;
+  backface-visibility: hidden;
+}
+.back {
+  position: absolute;
+  background: #f5f5f5;
+  width: 164px;
+  height: 120px;
+  text-align: center;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+.back p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  padding-top: 30px;
+}
+.back button {
+  width: 140px;
+  height: 36px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 8px;
+  background: #35b558;
+  border: 0;
+  color: #fff;
+}
+/* 精品课程    */
+.betterclass {
+  margin-top: 30px;
+  width: 990px;
+  position: relative;
+}
+.betterclass ul {
+  width: 998px;
+  margin-top: 20px;
+}
+.betterclasshead {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  text-decoration: none;
+}
+.betterclasstip {
+  font-size: 12px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #999;
+  color: #fff;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 13px;
+}
+.betterclasstipans {
+  display: inline-block;
+  width: 170px;
+  height: 26px;
+  background: url(../imgs/article/betterclassb.jpg) -3px -2px no-repeat;
+  left: 130px;
+  position: absolute;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  line-height: 26px;
+  top: -3px;
+  display: none;
+}
+.betterclassmore {
+  font-size: 12px;
+  float: right;
+  color: #2d85ca;
+  text-decoration: none;
+  cursor: pointer;
+}
+.betterclass ul,
+li {
+  list-style: none;
+}
+.betterclass li {
+  width: 232px;
+  height: 261px;
+  float: left;
+  border: 1px solid #dedede;
+  position: relative;
+}
+.betterclassleftgap {
+  margin-left: 18px;
+}
+.betterclass .marginleft {
+  margin-left: 16px;
+  margin-top: 14px;
+  position: absolute;
+  z-index: 1px;
+}
+.betterclass .marginleft p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.betterclass .marginleft img {
+  margin-bottom: 14px;
+}
+.betterclass .marginleft span {
+  font-size: 12px;
+  color: gray;
+}
+.betterclass .marginleft button {
+  font-size: 12px;
+  color: #fff;
+  height: 20px;
+  width: 56px;
+  text-align: center;
+  line-height: 20px;
+  background: #35b558;
+  float: right;
+  border: 0;
+  margin-right: 20px;
+}
+.atoncestudy {
+  text-align: center;
+  padding-top: 26px;
+  z-index: 222;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  height: 176px;
+  display: none;
+}
+.atoncestudy img {
+  border-radius: 50%;
+  opacity: 1;
+}
+.atoncestudy span {
+  display: inline-block;
+  width: 100px;
+  height: 28px;
+  background: #35b558;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 28px;
+  opacity: 1;
+}
+.atoncestudy span a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.atoncestudy span:hover {
+  background: #67d179;
+}
+.atoncestudyfp {
+  width: 201px;
+  height: 30px;
+  color: #333;
+  font-size: 12px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+.atoncestudyfp a {
+  color: gray;
+  text-decoration: none;
+}
+.atoncestudyfp a:hover {
+  color: #35b558;
+}
+.atoncestudysp {
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 12px;
+  padding: 0 16px;
+  cursor: pointer;
+  opacity: 1;
+}
+.atoncestudysp a {
+  color: gray;
+  text-decoration: none;
+}
+.atoncestudysp a:hover {
+  color: #35b558;
+}
+/* wiki开始 */
+.wiki {
+  margin-top: 314px;
+  width: 991px;
+}
+.wikihead {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  text-decoration: none;
+}
+.wikitip {
+  font-size: 12px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #999;
+  color: #fff;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 13px;
+}
+.wikitipans {
+  display: inline-block;
+  width: 170px;
+  height: 26px;
+  background: url(../imgs/article/wiki.jpg) -3px -2px no-repeat;
+  left: 130px;
+  position: absolute;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  line-height: 26px;
+  top: -3px;
+  display: none;
+}
+.wikimore {
+  font-size: 12px;
+  float: right;
+  color: #2d85ca;
+  text-decoration: none;
+  cursor: pointer;
+}
+.wikisonul {
+  margin-top: 20px;
+  width: 994px;
+}
+.wikisonul li {
+  border-left: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  float: left;
+  width: 330px;
+}
+.lastlibor {
+  border-right: 1px solid #dedede;
+}
+.wikifirstdiv {
+  width: 300px;
+  margin-top: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.wikifirstp {
+  font-size: 14px;
+  font-weight: 500;
+}
+.wikifirstdiv dl dd {
+  width: 142px;
+  float: left;
+}
+.wikifirstdiv dl dd a > div {
+  border-radius: 5px;
+  background: #999;
+  width: 142px;
+  height: 196px;
+  position: relative;
+}
+.wikifirstdiv dl dd a > div img {
+  border-radius: 5px;
+  transform-origin: 0px 50% 0px;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.wikifirstdiv dl dd a div:hover img {
+  transform: rotateY(20deg);
+  /* -webkit-animation: ffk-animate2 1s ease forwards; */
+}
+.wikifirstdiv dl dd a div:hover i {
+  display: block;
+}
+.wikiddsona {
+  text-decoration: none;
+}
+.wikiddsona h2 {
+  font-size: 13px;
+  color: #333;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.wikiddsona span {
+  font-size: 12px;
+  color: #999;
+  display: inline-block;
+  width: 142px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.wikiddsona:hover h2 {
+  color: #35b558;
+}
+.wikiddsona:hover span {
+  color: #35b558;
+}
+.lookal {
+  width: 40px;
+  height: 20px;
+  background: url(../imgs/article/look.png) center center no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -13px;
+  left: 111px;
+  display: none;
+}
+.wiki .wikifirstdiv ul {
+  list-style: none;
+  width: 300px;
+  height: 52px;
+}
+.wiki .wikifirstdiv ul li {
+  float: left;
+  width: 300px;
+  border: 0 !important;
+}
+.wiki .wikifirstdiv ul li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+}
+.wiki .wikifirstdiv ul li:hover a {
+  color: #35b558;
+}
+#lastlipad {
+  padding-bottom: 6px;
+}
+/* 回到顶部    */
+.widthandheight {
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+.gotop {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: 510px;
+}
+.gotop .firstsp {
+  background: url(../imgs/article/gotop.jpg) 0 0 no-repeat;
+  background-size: 34px 103px;
+  width: 34px;
+  height: 34px;
+  display: block;
+  display: none;
+}
+.gotop .check {
+  background: url(../imgs/article/gotop.jpg) 0 -68px no-repeat;
+  background-size: 34px 101px;
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+.gotop .secondsp {
+  position: relative;
+  background: #f7f7f7 url(../imgs/article/kfu.png) center center no-repeat;
+  width: 34px;
+  height: 34px;
+  display: block;
+  border-top: 1px solid #e0e0e0;
+}
+.fufirstsp {
+  background: url(../imgs/article/gotop1.jpg) 0 0 no-repeat;
+  background-size: 34px 103px;
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+.gotop a .phone {
+  position: relative;
+  background: #f7f7f7 url(../imgs/article/phone.png) center center no-repeat;
+  background-size: 12px 24px;
+  width: 34px;
+  height: 34px;
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+}
+footer img {
+  margin-top: 40px;
+}

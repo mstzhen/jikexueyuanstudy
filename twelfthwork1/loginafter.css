@@ -1,0 +1,602 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav {
+        width: 100%;
+        height: 32px;
+        border-bottom: 1px solid #eaeaea;
+    }
+    
+    nav a {
+        display: inline-block;
+        line-height: 32px;
+        height: 32px;
+        color: #525252;
+        font-size: 12px;
+        width: 42px;
+        text-align: center;
+        position: relative;
+        top: -10px;
+        cursor: pointer;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li ul li {
+        clear: both;
+    }
+    
+    nav .navmenu {
+        font-size: 13px;
+        font-weight: bold;
+        width: 52px;
+    }
+    
+    .showimg {
+        position: absolute;
+        display: none;
+        top: 26px;
+    }
+    
+    .floatp {
+        float: right;
+        position: relative;
+        top: -32px;
+    }
+    
+    #login {
+        width: 90px;
+        font-size: 13px;
+    }
+    
+    #oneli {
+        background: url(imgs/loginbj.gif) -2px 0px no-repeat;
+        width: 72px;
+        height: 136px;
+        position: absolute;
+        top: 17px;
+        left: 322px;
+        display: none;
+    }
+    
+    #oneli li {
+        height: 24px;
+        width: 64px;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    
+    #one li a {
+        width: 64px;
+        height: 24px;
+        display: inline-block;
+        margin-top: 15px;
+        text-align: left;
+        line-height: 26px;
+        padding-left: 8px;
+    }
+    
+    #one li a:hover {
+        width: 62px !important;
+        height: 26px;
+        display: inline-block;
+        background: #398bfb;
+    }
+    
+    #twoli {
+        background: url(imgs/dlbj.gif) -1px 0px no-repeat;
+        width: 72px;
+        height: 112px;
+        position: absolute;
+        top: 17px;
+        left: 405px;
+        display: none;
+    }
+    
+    #twoli li {
+        height: 27px;
+    }
+    
+    #two li a {
+        width: 72px;
+        height: 26px;
+        display: inline-block;
+        margin-top: 15px;
+        text-align: center;
+        line-height: 26px;
+    }
+    
+    #two li a:hover {
+        display: inline-block;
+        background: #398bfb;
+    }
+    
+    #more {
+        width: 86px;
+        font-size: 13px;
+        color: #fff;
+        background: #398bfb;
+        text-decoration: none;
+        cursor: default;
+    }
+    
+    #set {
+        font-size: 13px;
+        width: 72px;
+    }
+    
+    #rightfloat {
+        list-style: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 86px !important;
+        height: 667px !important;
+        background: #f9f9f9;
+        border-left: 1px solid #f0f0f0;
+        margin-right: 0px;
+        display: none;
+        z-index: 1
+    }
+    
+    #rightfloat li {
+        clear: both;
+        border-bottom: 1px solid #f0f0f0;
+        width: 68px;
+        margin-left: 9px;
+        padding-bottom: 9px;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    
+    #rightfloatli {
+        padding-bottom: 16px !important;
+        margin-top: 8px !important;
+    }
+    
+    #rightfloat li a {
+        padding-left: 1px;
+    }
+    
+    #lione a {
+        background: url(imgs/bdbri_icons.png) no-repeat -72px -11px;
+        margin-top: 16px;
+        padding-top: 30px;
+        display: inline-block;
+        width: 40px;
+        text-decoration: none;
+    }
+    
+    #lione a:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #litwo a {
+        background: url(imgs/bdbri_icons.png) no-repeat -113px -4px;
+        margin-top: 12px;
+        padding-top: 37px;
+        display: inline-block;
+        width: 32px;
+        text-decoration: none;
+    }
+    
+    #litwo a:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #lithree a {
+        background: url(imgs/bdbri_icons.png) no-repeat -36px 0px;
+        margin-top: 12px;
+        padding-top: 40px;
+        display: inline-block;
+        width: 35px;
+        text-decoration: none;
+    }
+    
+    #lithree a:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #lifour a {
+        background: url(imgs/bdbri_icons.png) no-repeat -146px 0px;
+        margin-top: 12px;
+        padding-top: 40px;
+        display: inline-block;
+        width: 35px;
+        text-decoration: none;
+    }
+    
+    #lifour a:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #lifive a {
+        background: url(imgs/bdbri_icons.png) no-repeat -181px -2px;
+        margin-top: 12px;
+        padding-top: 40px;
+        display: inline-block;
+        width: 40px;
+        text-decoration: none;
+    }
+    
+    #lifive a:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #lisix a {
+        background: url(imgs/bdbri_icons.png) no-repeat -220px -2px;
+        margin-top: 12px;
+        padding-top: 38px;
+        display: inline-block;
+        width: 36px;
+        text-decoration: none;
+    }
+    
+    #lisix a span:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #lisix a span {
+        display: inline-block;
+        width: 53px;
+        position: relative;
+        left: -6px;
+        color: #5d5d5d;
+    }
+    
+    #liseven {
+        margin-top: 16px !important;
+        border-bottom: none !important;
+    }
+    
+    #liseven a {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #liseven a:hover {
+        text-decoration: underline;
+        color: #5d5d5d;
+    }
+    
+    #center {
+        text-align: center;
+        display: block;
+        clear: right;
+        padding: 0px;
+    }
+    
+    #center .gap {
+        margin-top: 14px;
+        text-align: center;
+    }
+    
+    .reset1 input {
+        width: 540px;
+        font-size: 15px;
+        padding: 9px 6px;
+        border-right: 0px;
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        outline: none;
+    }
+    /* <!--针对IE 10的css hack--> */
+    
+    @media screen and (-ms-high-contrast: active),
+    (-ms-high-contrast: none) {
+        .reset1 input {
+            padding-top: 9px;
+            padding-bottom: 8px;
+        }
+    }
+    
+    .reset1 input:hover {
+        border: 1px solid #b6b6b6;
+    }
+    
+    .reset1 input:focus {
+        border: 1px solid #3385ff;
+    }
+    
+    .reset2 input {
+        width: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        border: none;
+        background-color: #3385ff;
+        color: #fff;
+        outline: none;
+        cursor: pointer;
+    }
+    /* firfox浏览器css hack */
+    
+    @-moz-document url-prefix() {
+        .reset2 input {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    }
+    
+    .reset2 input:hover {
+        background-color: #2d78f4;
+    }
+    
+    .sectiontwolocal {
+        margin: 72px auto;
+    }
+    
+    .sectiontwolocal ul {
+        list-style: none;
+        border: 1px solid #eaeaea;
+        width: 894px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    
+    .sectiontwolocal ul li {
+        list-style: none;
+        float: left;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        width: 80px;
+    }
+    /*    .sectiontwolocal ul li:hover {
+     background: #b3b6bb;
+     color: #fff;
+     cursor: pointer;
+ } */
+    
+    #sectiontwomenu {
+        width: 112px;
+        background: #9a9da2 url(imgs/myfocusb.jpg) 15px 10px no-repeat;
+        padding-left: 10px;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #sectiontwomenu span {
+        display: inline-block;
+        position: relative;
+        left: 5px;
+    }
+    
+    .sectiontwodiv {
+        width: 894px;
+        height: 500px;
+        border-right: 1px solid #eaeaea;
+        border-left: 1px solid #eaeaea;
+        margin: 0 auto;
+    }
+    
+    .fixed {
+        position: fixed;
+        top: -14px;
+        width: 100%;
+        height: 70px;
+        padding-top: 18px;
+        border-bottom: 1px solid #eaeaea;
+        opacity: 0.95;
+        background: #fff;
+    }
+    
+    .fixedimg {
+        display: none;
+        position: relative;
+        top: 6px;
+        margin-right: 24px;
+    }
+    
+    .gotop {
+        border: 1px solid #eaeaea;
+        width: 38px;
+        height: 38px;
+        background: #fafafa url(imgs/gotop1.jpg) 4px 4px no-repeat;
+        top: 567px;
+        left: 1136px;
+        position: fixed;
+        visibility: hidden;
+        cursor: pointer;
+    }
+    
+    .gotop1 {
+        background: #ececec url(imgs/gotop2.jpg) 4px 4px no-repeat;
+        cursor: pointer;
+    }
+    
+    .myfocus {
+        width: 850px;
+        height: 130px;
+        position: relative;
+        top: 20px;
+        left: 22px;
+    }
+    
+    .myfocusfirstp {
+        background: url(imgs/left.jpg) -4px 0px no-repeat;
+        border-bottom: 1px solid #ececec;
+        height: 30px;
+    }
+    
+    .mynavi {
+        margin-left: -707px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .mynavifight {
+        float: right;
+        position: relative;
+        top: -27px;
+        left: 20px;
+        display: none;
+    }
+    
+    .mynavifight a {
+        margin-right: 20px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .mynavifight span {
+        margin-right: 20px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .mynavifight a:hover {
+        color: #398bfb;
+    }
+    
+    .mynavithirdp {
+        position: relative;
+        top: 27px;
+        width: 360px;
+        height: 82px;
+        left: 233px;
+        display: none;
+    }
+    
+    .suggest {
+        display: none;
+    }
+    
+    .suggestdiv {
+        position: relative;
+        top: -5px;
+        left: 15px;
+    }
+    
+    .suggestdiv p {
+        text-align: left;
+        margin-top: 20px;
+        width: 500px;
+    }
+    
+    .suggestdivsecondp a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+        font-family: arial, 'Microsoft Yahei', '微软雅黑';
+    }
+    
+    .suggestdivsecondp a:hover {
+        text-decoration: underline;
+        color: #398bfb;
+    }
+    
+    .navi {
+        position: relative;
+        top: 15px;
+        display: none;
+    }
+    
+    .video {
+        position: relative;
+        top: 15px;
+        display: none;
+    }
+    
+    .buy {
+        position: relative;
+        top: 15px;
+        display: none;
+    }
+    
+    .changecolor {
+        width: 100%;
+        height: 300px;
+        position: fixed;
+        z-index: 2;
+        border-bottom: 1px solid #eaeaea;
+        box-shadow: 0 1px 1px 0px #eaeaea;
+        background: #fff;
+        display: none;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 48px;
+        border-bottom: 1px solid #eaeaea;
+    }
+    
+    .menufirsta {
+        margin-left: 220px;
+        display: inline-block;
+        height: 48px;
+        line-height: 48px;
+        width: 44px;
+        font-size: 12px;
+        background: #389CFF;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .menuseconda {
+        display: inline-block;
+        height: 48px;
+        line-height: 48px;
+        width: 44px;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .bjbackone {
+        margin-left: 220px;
+        margin-top: 20px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .bjbacktwo {
+        margin-top: 20px;
+        margin-left: 1px;
+        cursor: pointer;
+    }
+    
+    .hidden {
+        position: relative;
+        top: 15px;
+        left: 770px;
+        cursor: pointer;
+    }
+    
+    .notuseskinx {
+        position: relative;
+        top: 12px;
+        left: 740px;
+        font-size: 20px;
+    }
+    
+    .notuseskin {
+        position: relative;
+        top: 8px;
+        left: 750px;
+        font-size: 12px;
+    }
+    
+    .notuseskina {
+        cursor: pointer;
+        display: inline-block;
+    }
