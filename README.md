@@ -40,5 +40,5 @@ works which author studys in jike academy。<br/>
 (1) <a href="https://github.com/mstzhen/jikexueyuanstudy/tree/master/eleventhwork1">gulp结合css less重写极客学院首页</a><br/>
 (2) <a href="https://github.com/mstzhen/jikexueyuanstudy/tree/master/eleventhwork2">利用less写公交站牌</a><br/>
 12.<br/>
-(1) <a href="https://github.com/mstzhen/jikexueyuanstudy/tree/master/twelfth1">用设计模式改善百度js代码</a><br/>
-(2) <a href="https://github.com/mstzhen/jikexueyuanstudy/tree/master/twelfth2">高级前端面试题总结</a><br/>
+(1) <a href="https://github.com/mstzhen/jikexueyuanstudy/tree/master/twelfthwork1">用设计模式改善百度js代码</a><br/>
+(2) <a href="https://github.com/mstzhen/jikexueyuanstudy/tree/master/twelfthwork2">高级前端面试题总结</a><br/>
