@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简易计算机开发</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  
+ 
+</head>
+<body>
+    <div class="middle">
+        <h2>简易计算器(加减乘除取余运算）</h2>
+        <p id="correct">
+            <label name="x">x:
+                <input id="dataone" type="text" name="x" onblur="judgea()">
+            </label>
+        </p>
+        <p>
+            <label name="y">y:
+                <input type="text" id="datatwo" name="y" onblur="judgeb()">
+            </label>
+        </p>
+        <p>
+            <label name="z">运算符：
+                <select id="datathree">
+                    <option>+</option>
+                    <option>-</option>
+                    <option>*</option>
+                    <option>/</option>
+                    <option>%</option>
+                </select>
+            </label>
+        </p>
+        <p id="result">
+            <input type="button" value="输出结果" class="result" onclick="result()">
+        </p>
+        <script type="text/javascript" src="index.js"></script>
+        </div>
+
+
+</body>
+
+</html>

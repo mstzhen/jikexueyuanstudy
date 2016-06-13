@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>圣杯布局</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .container {
+        padding: 0 220px 0 200px;
+        overflow: hidden;
+        word-break: break-all;
+        min-width: 300px;
+    }
+    
+    .left {
+        margin-left: -100%;
+        left: -203px;
+        width: 200px;
+        background: red;
+         position: relative;
+        float: left;
+        height: 130px;
+    }
+    
+    .right {
+        margin-left: -220px;
+        right: -223px;
+        width: 220px;
+        background: green;
+         position: relative;
+        float: left;
+        height: 130px;
+    }
+    
+    .middle {
+        width: 100%;
+        background: blue;
+         position: relative;
+        height: 130px;
+        float: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="middle">
+            <h4>middle</h4>
+            <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+        </div>
+        <div class="left">
+            <h4>left</h4>
+            <p>oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
+        </div>
+        <div class="right">
+            <h4>right</h4>
+            <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb88888888888888888888888888888888888888888888888</p>
+        </div>
+    </div>
+</body>
+
+</html>

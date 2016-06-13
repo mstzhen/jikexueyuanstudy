@@ -1,0 +1,393 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        width: 1000px;
+        height: 98px;
+        margin: 0px auto;
+    }
+    
+    .left {
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+    
+    .right1 {
+        font-size: 13px;
+        width: 83px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 6px;
+        color: #fff;
+        background: #565656;
+        float: right;
+        margin-top: 52px;
+    }
+    
+    .right2 {
+        font-size: 13px;
+        width: 83px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 6px;
+        color: #fff;
+        background: #565656;
+        float: right;
+        margin-right: 10px;
+        margin-top: 52px;
+    }
+    
+    .right1 a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .right2 a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    nav {
+        width: 100%;
+        height: 35px;
+        background: #565656 url(images/1px.gif);
+        border-top: 1px solid #939393;
+    }
+    
+/* 去掉后面的ul继承*/
+    nav>ul {
+        width: 1000px;
+        margin: 0px auto;
+    }
+    
+    li {
+        float: left;
+        width: 144px;
+        height: 36px;
+        list-style: none;
+        line-height: 36px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: arial, georgia, verdana, simsun, helvetica, sans-serif;
+    }
+    
+    .alone {
+        width: 135px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    .back {
+        background: url(images/zches.gif) no-repeat left 0px;
+    }
+    /*   .fgx{
+      	position: absolute;
+      	top: 99px;
+      	left: 298px;
+     
+      }
+       */
+    
+    .last {
+        background: url(images/zches.gif) no-repeat left 0px;
+    }
+    
+    .alone a {
+        display: inline-block;
+        width: 135px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .alone a:hover {
+        background: url(images/bjt_mr.gif) no-repeat left 1px;
+    }
+    
+    .back a {
+        display: inline-block;
+        width: 144px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .back a:hover {
+        background: url(images/bjt_mr.gif) no-repeat 3px 1px;
+    }
+    
+    .banner {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .main {
+        width: 1000px;
+        margin: 0px auto;
+    }
+    
+    .main .col1 {
+        color: #67391b;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .main .col2 {
+        color: #dadada;
+        font-size: 14px;
+        font-family: arial, georgia, verdana, simsun, helvetica, sans-serif;
+    }
+    
+    #right {
+        float: right;
+        padding-top: 2px;
+    }
+    
+    #blank {
+        padding-left: 10px;
+    }
+    
+    .main1div {
+        width: 317px;
+        margin-top: 10px;
+        float: left;
+    }
+    
+    .main1div p {
+        font-size: 12px;
+        font-family: Times New Roman;
+        line-height: 24px;
+        padding-left: 6px;
+        margin-top: 5px;
+        padding-top: 10px;
+        color: #555;
+    }
+    
+    #left {
+        float: left;
+        margin-left: 6px;
+        margin-top: 20px;
+        margin-right: 20px;
+        display: block;
+        padding: 2px;
+        border: 1px solid #e4e4e4;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px 2px #efefef;
+        height: 80px;
+    }
+    
+    .main2div {
+        margin-top: 15px;
+        margin-left: 348px;
+    }
+    
+    .main2div table {
+        width: 400px;
+        border: 2px solid #efefef;
+        border-collapse: collapse;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px 2px #f7f7f7;
+    }
+    
+    .main2div table ul {
+        width: 400px;
+    }
+    
+    .main2div table ul li {
+        list-style: none;
+        float: left;
+        width: 100px;
+        font-size: 13px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+    }
+    
+    #cor1 {
+        background: #ab6939;
+        color: #fff;
+        margin: 1px;
+    }
+    
+    #cor2 {
+        background: #dcdcdc;
+        color: #666;
+        margin: 1px;
+    }
+    
+    #cor3 {
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        float: left;
+        border: 1px solid #d5d5d5;
+        height: 62px;
+        width: 98px;
+        display: block;
+    }
+    
+    .main2div p {
+        font-size: 12px;
+        font-family: Times New Roman;
+        line-height: 18px;
+        margin-left: 13px;
+        margin-top: 22px;
+        margin-right: 8px;
+        color: #555;
+    }
+    
+    .main2div p span {
+        font-weight: bold;
+    }
+    
+    .main2div table .cor span {
+        float: right;
+        font-weight: normal;
+        margin-top: 7px;
+        margin-right: 4px;
+    }
+    
+    .main2div p img {
+        position: relative;
+        top: 4px;
+        padding-right: 10px;
+    }
+    
+    .main2div .cor {
+        padding-top: 5px;
+        margin-top: 0px;
+    }
+    
+    #cor4 {
+        margin-bottom: 20px;
+    }
+    
+    .main3div {
+        width: 218px;
+        margin-left: 780px;
+        position: absolute;
+        top: 483px;
+    }
+    
+    .main3div ul li {
+        float: none;
+        width: 218px;
+        height: 55px;
+        margin-bottom: 10px;
+    }
+    
+    .main3div ul li a {
+        text-decoration: none;
+        color: #b1b1b1;
+        width: 218px;
+        height: 50px;
+        display: block;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        line-height: 50px;
+        background: url(images/bjtmr3.gif) no-repeat left -3px;
+        margin-top: 4px;
+    }
+    
+    .main3div ul li a:hover {
+        background: url(images/bjthg3.gif) no-repeat;
+        color: #fff;
+    }
+    
+    .main4div {
+        padding-top: 30px;
+        width: 1000px;
+        margin: 0 auto;
+        clear: both;
+        position: relative;
+    }
+    
+    .main4div p {
+        font-weight: bold;
+        color: #67391b;
+        font-size: 18px;
+        letter-spacing: -2px;
+    }
+    
+    .main4div p span {
+        font-weight: bolder;
+        color: #b1b1b1;
+        font-size: 20px;
+        font-family: arial;
+        letter-spacing: -2px;
+    }
+    
+    #cor5 {
+        float: right;
+        margin-top: -15px;
+        margin-right: 249px;
+    }
+    
+    #cor6 {
+        margin-top: 10px;
+    }
+    
+    .main4div ul {
+        position: absolute;
+        top: 92px;
+        left: 56px;
+    }
+    
+    .main4div ul li {
+        padding: 2px;
+        border: 1px solid #e4e4e4;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px 2px #efefef;
+        width: 128px;
+        height: 93px;
+        margin-left: 22px;
+    }
+    
+    #cor6 {
+        margin-top: 6px;
+    }
+    
+    footer {
+        width: 1000px;
+        margin: 0 auto;
+        font-size: 12px;
+        font-family: Times New Roman;
+        color: #555;
+        position: relative;
+    }
+    
+    .lastdiv {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    
+    .main5div {
+        margin-top: 30px;
+    }
+    
+    .lastdiv p {
+        text-align: right;
+    }
+    
+    .main5div p {
+        margin-top: 10px;
+    }
+    
+    #cor7 {
+        margin-top: 10px;
+    }
+  
