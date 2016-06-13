@@ -1,0 +1,40 @@
+    body {
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #0FF;
+    border-left-color: #0FF;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+}
+
+th {
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #0FF;
+    border-left-color: #0FF;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    }
+
+table {
+        margin: 0px auto;
+    }
