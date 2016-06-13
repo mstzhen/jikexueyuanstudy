@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>改变网站主题</title>
+    <link rel="stylesheet" type="text/css" href="topic.css">
+</head>
+
+<body onload="cookie(window.localStorage.a)">
+    <header>
+        <p class="imgcenter"><img src="imgs/banner.jpg"></p>
+    </header>
+    <article>
+        <div>
+            <p class="searchone"></p>
+            <p class="searchtwo"><span class="spanone">网页</span><span class="spantwo"></span>
+                <input type="text" class="search" autofocus="">
+            </p>
+            <p class="searchthree"></p>
+            <p class="topic"><span class="red" title="红色主题" onclick="redred()"></span><span class="blue" title="蓝色主题" onclick="blueblue()"></span><span class="green" title="绿色主题" onclick="greengreen()"></span></p>
+            <p class="searchbot"><span class="searchfour"></span><span><a href="#">天气</a></span><span class="searchfive"><a href="#">NBA</a></span><span class="searchfive"><a href="#">Selina离婚真相</a></span><span class="searchfive" id="repairspanone"><a href="#" >第六套人民币</a></span><span class="searchfive"><a href="#">谢霆锋失控发飙</a></span><span class="searchfive"><a href="#">陈乔恩淤血照</a></span><span class="searchfive"><a href="#">我是歌手</a></span><span class="searchfivelast" id="repairspantwo"><a href="#">更多</a></span></p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li id="reapirnav"><a href="#">首页</a></li>
+                <li class="navli" onmouseover="hovertwo(0)" onmouseout="hovertwoopp(0)"><a href="#">电视剧</a></li>
+                <li class="navli" onmouseover="hovertwo(1)" onmouseout="hovertwoopp(1)"><a href="#">最新电影</a></li>
+                <li class="navli" onmouseover="hovertwo(2)" onmouseout="hovertwoopp(2)"><a href="#">新闻头条</a></li>
+                <li class="navli" onmouseover="hovertwo(3)" onmouseout="hovertwoopp(3)"><a href="#">八卦娱乐</a></li>
+                <li class="navli" onmouseover="hovertwo(4)" onmouseout="hovertwoopp(4)"><a href="#">军事热点</a></li>
+                <li class="navli" onmouseover="hovertwo(5)" onmouseout="hovertwoopp(5)"><a href="#">热门游戏</a></li>
+                <li class="navli" onmouseover="hovertwo(6)" onmouseout="hovertwoopp(6)"><a href="#">小游戏</a></li>
+                <li class="navli" onmouseover="hovertwo(7)" onmouseout="hovertwoopp(7)"><a href="#">今日特价</a></li>
+                <li class="navli" onmouseover="hovertwo(8)" onmouseout="hovertwoopp(8)"><a href="#">特价旅游</a></li>
+                <li class="navli" onmouseover="hovertwo(9)" onmouseout="hovertwoopp(9)"><a href="#">生活服务</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="tv">
+                <p><img src="imgs/image1.jpg"></p>
+                <p class="tvsecondp"><img src="imgs/image21.jpg"></p>
+            </div>
+            <div class="tvright">
+                <div class="tvrightdivone">
+                    <ul>
+                        <li id="lione"><a href="#">百度</a>•<a href="#">贴吧</a></li>
+                        <li class="tvrightdivoneli" id="litwo"><a href="#">新浪</a>•<a href="#">微博</a></li>
+                        <li class="tvrightdivoneli" id="lithree"><a href="#">搜狐</a>•<a href="#">热点</a></li>
+                        <li class="tvrightdivoneli" id="lifour"><a href="#">腾&nbsp;讯</a></li>
+                        <li class="tvrightdivoneli" id="lifive"><a href="#">网&nbsp;易</a></li>
+                        <li class="tvrightdivoneli" id="lisix"><a href="#">优 酷 网</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="middlew"></p>
+                </div>
+                <div class="last">
+                    <ul>
+                        <li><a href="#">聚划算</a></li>
+                        <li><a href="#">爱淘宝</a></li>
+                        <li><a href="#">今日秒杀</a></li>
+                        <li><a href="#">爆款理财</a></li>
+                        <li><a href="#">贷款</a></li>
+                        <li><a href="#">特价酒店</a></li>
+                        <li><a href="#">景点门票</a></li>
+                        <li><a href="#">手机狂欢购</a></li>
+                        <li><a href="#">低价促销热卖</a></li>
+                        <li><a href="#">精选优惠</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script type="text/javascript" src="topic.js">
+    </script>
+</body>
+
+</html>

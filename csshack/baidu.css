@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding-right: 0px;
+    min-width: 960px;
+}
+
+.right {
+    float: right;
+
+}
+
+.right ul {
+    margin-right: 16px;
+}
+
+.right ul li {
+    margin-top: 26px;
+    list-style: none;
+    float: left;
+    font-size: 13px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.right ul li ul {
+    display: none;
+}
+
+.right ul li ul li a {
+    text-decoration: none;
+    padding: 4px 6px 4px 4px;
+    display: block;
+    float: none;
+}
+
+.right ul li ul li a:hover {
+    background-color: #3385ff;
+}
+
+.right ul li:hover ul {
+    display: block;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    left: -20px;
+    width: 62px;
+    position: absolute;
+    box-shadow: 2px 2px 4px -1px #ccc;
+}
+
+.right ul li ul li {
+    list-style: none;
+    font-size: 13px;
+    float: none;
+    margin: 0px;
+}
+
+#blue {
+    width: 58px;
+    height: 24px;
+    font-size: 13px;
+    background-color: blue;
+    display: inline-block;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.right li a:visited {
+    color: #333;
+}
+
+.right li a:link {
+    color: #333;
+}
+
+.right li a:hover {
+    color: blue;
+}
+
+#center {
+    text-align: center;
+    display: block;
+    clear: right;
+}
+
+#center .gap {
+    margin-top: 23px;
+}
+
+.reset1 input {
+    width: 540px;
+    font-size: 15px;
+    padding: 8px 6px;
+    border-right: 0px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    outline: none;
+}
+
+
+/* <!--针对IE 10的css hack--> */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .reset1 input {
+        padding-top: 9px;
+        padding-bottom: 8px;
+    }
+}
+
+.reset1 input:hover {
+    border: 1px solid #b6b6b6;
+    border-right: none;
+}
+
+.reset1 input:focus {
+    border: 1px solid #3385ff;
+        border-right: none;
+
+}
+
+.reset2 input {
+    width: 100px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    border: none;
+    background-color: #3385ff;
+    color: #fff;
+    outline: none;
+}
+
+
+/* firfox浏览器css hack */
+
+@-moz-document url-prefix() {
+    .reset2 input {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+.reset2 input:hover {
+    background-color: #2d78f4;
+}
+
+.distance {
+    margin-top: 255px;
+    margin-left: 26%;
+    font-size: 12px;
+}
+
+.contain {
+    width: 122px;
+    height: 60px;
+    float: left;
+    margin-right: 36px;
+}
+
+.contain div div {
+    color: #666;
+}
+
+.foot {
+    float: left;
+    margin-right: 10px;
+}
+
+.spcontain p {
+    padding-top: 10px;
+}
+
+.spcontain p a:link {
+    color: #272727;
+}
+
+.pdis {
+    margin-top: 10px;
+    width: 52px;
+    float: left;
+}
+
+#fan1 {
+    float: left;
+    color: #666;
+}
+
+#fan2 {
+    padding-top: 6px;
+}

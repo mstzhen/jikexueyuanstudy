@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>解析数组</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript">
+    /*用console面板调试*/
+    var arr = ["a", "x", "b", "d", "m", "a", "k", "m", "p", "j", "a"]; //已知数组
+    var count = {};
+    var posi = {};
+
+    arr.forEach(function(value, index) {
+        if (count[value]) {
+            count[value]++;
+            posi[value] += "," + index;
+        } else {
+            count[value] = 1;
+            posi[value] = "" + index;
+        }
+    })
+    console.log(count);
+    console.log(posi);
+
+    var max = 0;
+    var letter;
+    for (i in count) {
+        if (count[i] > max) {
+            max = count[i];
+            letter = i;
+        }
+    }
+    console.log("最多的位置字母:" + letter);
+    console.log("位置分布：" + posi[letter]);
+    </script>
+</head>
+
+<body>
+    <h1>请用谷歌浏览器打开console面板进行调试</h1>
+</body>
+
+</html>

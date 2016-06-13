@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>极客学院首页</title>
+    <link rel="stylesheet" type="text/css" href="./css/pc.css">
+</head>
+
+<body>
+    <!-- 网页头部-->
+    <header>
+        <a name="top"></a>
+        <div>
+            <!--  极客学院logo   -->
+            <a href="http://www.jikexueyuan.com"><img src="imgs/header/logo.png" width="113px" height="41px" class="imglogo" alt="极客学院" /></a>
+            <!-- 搜索输入框部分  -->
+            <div class="topsearch">
+                <form>
+                    <input type="text" placeholder="搜索课程、问答或者Wiki" class="topsearchonein" />
+                    <input type="button" class="topsearchtwoin" />
+                    <span class="tipsearch"><a href="http://search.jikexueyuan.com/course/?q=Android">Android</a><a href="http://search.jikexueyuan.com/course/?q=iOS">iOS</a><a href="http://search.jikexueyuan.com/course/?q=HTML5">HTML5</a></span>
+                </form>
+            </div>
+            <!-- 登录内容部分 -->
+            <div class="loginbox">
+                <span><img src="imgs/header/massage.gif" class="mymessage"></span>|<a href="https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=101119675&redirect_uri=http://passport.jikexueyuan.com/connect/success?t=qq&state=b558e9472e84c0f4abff26096d58df93&scope=get_user_info">QQ登录</a>|<a href="http://passport.jikexueyuan.com/sso/login">登录</a>|<a href="http://passport.jikexueyuan.com/sso/reg_phone">注册</a>
+            </div>
+        </div>
+    </header>
+    <!-- 导航部分 -->
+    <nav>
+        <div>
+            <div>
+                <ul>
+                    <li class="index"><a href="http://www.jikexueyuan.com">首页</a></li>
+                    <li class="othernav"><a href="http://www.jikexueyuan.com/course/">职业课程</a>
+                        <ul>
+                            <li class="firstligap"><a href="http://j.jikexueyuan.com/?huodong=jiuye_all_guide">课程库</a></li>
+                            <li><a href="">知识体系图</a></li>
+                            <li><a href="">职业路径图</a></li>
+                            <li><a href="">系列课程</a></li>
+                        </ul>
+                    </li>
+                    <li class="othernav"><a href="">就业学习</a>
+                        <ul>
+                            <li class="firstligap"><a href="">Web前端开发</a></li>
+                            <li><a href="">Android开发</a></li>
+                            <li><a href="">Javaweb开发</a></li>
+                            <li><a href="">Ios开发</a></li>
+                        </ul>
+                    </li>
+                    <li class="othernav"><a href="">极客社区</a>
+                        <ul>
+                            <li class="firstligap"><a href="">Wiki</a></li>
+                            <li><a href="">技术问答</a></li>
+                            <li><a href="">社群</a></li>
+                            <li><a href="">资源分享</a></li>
+                        </ul>
+                    </li>
+                    <li class="othernav"><a href="">极客+</a>
+                        <ul>
+                            <li class="firstligap"><a href="">高校合作</a></li>
+                            <li><a href="">极客人才联盟</a></li>
+                            <li><a href="">布道师招募</a></li>
+                            <li><a href="">实战教练招募</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navseconddiv">
+                <a href="http://www.jikexueyuan.com/vip/"><span><img src="imgs/nav/vip.png" class="imggapmenu" alt="vip会员">VIP会员</span></a>
+                <a href="http://press.jikexueyuan.com/topic/"><span><img src="imgs/nav/star.png" class="imggapmenu" alt="课程">求课程</span></a>
+                <a href="http://www.jikexueyuan.com/app/"><span><img src="imgs/nav/dl.png" class="imggapmenu" alt="App下载">APP下载<img src="imgs/nav/new.png" width="14px"></span></a>
+            </div>
+            <div class="ulbtndiv">
+                <div class="ulbtndivson1"></div>
+                <div class="ulbtndivson2"></div>
+                <div class="ulbtndivson2"></div>
+                <div class="ulbtndivson2"></div>
+                <div class="ulbtndivson2"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- 正文部分     -->
+    <article>
+        <!-- 垂直导航-->
+        <section class="sectionone">
+            <div class="vnav">
+                <ul>
+                    <li><a href="http://www.jikexueyuan.com/course/mobile/">移动开发</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/web/">前端开发</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/dev/">后端开发</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/base/">基础知识</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/clouddata/">元计算&大数据</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/intellegence/">智能硬件&物联网</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/db/">数据库</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/certificate/">认证考试</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/enterpriseit/">企业IT</a></li>
+                    <li><a href="http://www.jikexueyuan.com/course/productdesign/">设计&产品&测试</a></li>
+                </ul>
+            </div>
+            <div class="hiddenlocal">
+                <div class="vnavconent">
+                    <p>应用开发</p>
+                    <a href="" class="vnavconentfirsta">Android</a><span>&nbsp;|&nbsp;</span><a href="">iOS</a>
+                </div>
+                <div class="vnavconent">
+                    <p>前端基础</p>
+                    <a href="" class="vnavconentfirsta">HTML</a><span>&nbsp;|&nbsp;</span><a href="">CSS</a>
+                </div>
+                <div class="vnavconent">
+                    <p>Python</p>
+                    <a href="" class="vnavconentfirsta">Python基础</a><span>&nbsp;|&nbsp;</span><a href="">web2py</a>
+                </div>
+                <div class="vnavconent">
+                    <p>基础语言</p>
+                    <a href="" class="vnavconentfirsta">c</a><span>&nbsp;|&nbsp;</span><a href="">c++</a>
+                </div>
+                <div class="vnavconent">
+                    <p>云计算</p>
+                    <a href="" class="vnavconentfirsta">OpenStack</a><span>&nbsp;|&nbsp;</span><a href="">Docker</a>
+                </div>
+                <div class="vnavconent">
+                    <p>硬件架构</p>
+                    <a href="" class="vnavconentfirsta">C5I</a><span>&nbsp;|&nbsp;</span><a href="">ARM</a>
+                </div>
+                <div class="vnavconent">
+                    <p>数据库</p>
+                    <a href="" class="vnavconentfirsta">MySql</a><span>&nbsp;|&nbsp;</span><a href="">Oracle</a>
+                </div>
+                <div class="vnavconent">
+                    <p>计算机等级考试</p>
+                    <a href="" class="vnavconentfirsta">一级</a><span>&nbsp;|&nbsp;</span><a href="">二级c</a>
+                </div>
+                <div class="vnavconent">
+                    <p>运维管理</p>
+                    <a href="" class="vnavconentfirsta">Shell</a><span>&nbsp;|&nbsp;</span><a href="">自动化运维</a>
+                </div>
+                <div class="vnavconent">
+                    <p>设计基础</p>
+                    <a href="" class="vnavconentfirsta">Photoshop</a><span>&nbsp;|&nbsp;</span><a href="">Flash</a>
+                </div>
+            </div>
+            <!-- 轮播开始-->
+            <div class="lunbo">
+                <!-- 第一个轮播-->
+                <div class="lunbo1">
+                    <div id="lunbo1_list">
+                        <a href="#" target="_blank"><img src="imgs/article/lunbo2.jpg" /></a>
+                        <a href="#" target="_blank"><img src="imgs/article/lunbo1.jpg" /></a>
+                        <a href="#" target="_blank"><img src="imgs/article/lunbo4.jpg" /></a>
+                        <a href="#" target="_blank"><img src="imgs/article/lunbo3.jpg" /></a>
+                    </div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <!-- 第二个轮播-->
+                <div class="lunbo2">
+                    <ul>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/train/web?huodong=jiuye_web_in"><img src="imgs/article/html.png" width="40">
+                                <p class="poneclor">HTML5/Web前端工程师</p>
+                                <p class="ptwocolor">前腾讯高级前端工程师授课</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/train/android?huodong=jiuye_android_in"><img src="imgs/article/android.png" width="40">
+                                <p class="poneclor">Android开发工程师</p>
+                                <p class="ptwocolor">挑战月薪2万的工作机会</p>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_in"><img src="imgs/article/java.jpg" width="40">
+                                <p class="poneclor">JavaWeb开发工程师</p>
+                                <p class="ptwocolor">Java人才4个月极速进阶</p>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/?huodong=jiuye_all_in"><img src="imgs/article/caree.jpg" width="40"></a>
+                            <p class="poneclor">极客学院就业班</p>
+                            <p class="ptwocolor">0基础4个月成为IT工程师</p>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/train/web?huodong=jiuye_web_in"><img src="imgs/article/html.png" width="40">
+                                <p class="poneclor">HTML5/Web前端工程师</p>
+                                <p class="ptwocolor">前腾讯高级前端工程师授课</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/train/android?huodong=jiuye_android_in"><img src="imgs/article/android.png" width="40">
+                                <p class="poneclor">Android开发工程师</p>
+                                <p class="ptwocolor">挑战月薪2万的工作机会</p>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_in"><img src="imgs/article/java.jpg" width="40">
+                                <p class="poneclor">JavaWeb开发工程师</p>
+                                <p class="ptwocolor">Java人才4个月极速进阶</p>
+                        </li>
+                        <li>
+                            <a href="http://j.jikexueyuan.com/?huodong=jiuye_all_in"><img src="imgs/article/caree.jpg" width="40"></a>
+                            <p class="poneclor">极客学院就业班</p>
+                            <p class="ptwocolor">0基础4个月成为IT工程师</p>
+                        </li>
+                    </ul>
+                    <div class="leftag">
+                        <</div>
+                            <div class="rightag">
+                                ></div>
+                    </div>
+                </div>
+                <!-- 快讯        -->
+                <div class="knews">
+                    <ul>
+                        <li class="firstli">
+                            <h3>快讯</h3>
+                            <p><a href="http://qun.jikexueyuan.com/activity/topic/386?huodong=yuedu_kuaixun_0321">免费阅读图文教程 送Kindle</a></p>
+                            <p><a href="http://qun.jikexueyuan.com/activity/topic/331?huodong=free_kuaixun_0307">精品系列课程限免中！不要错过！</a></p>
+                            <p><a href="http://qun.jikexueyuan.com/activity/topic/400?huodong=kuaixun_0324">狂送 HTML5与CSS3权威指南</a></p>
+                            <p><a href="http://jiuye.jikexueyuan.com/assistant/apply?huodong=jianzhi_kuaixun">贩卖碎片时间，
+轻松月入5000</a></p>
+                        </li>
+                        <li class="secondli">
+                            <p class="firstp"><img src="imgs/article/default.gif" width="40"></p>
+                            <p class="secondp">Hi！你好</p>
+                            <p class="thirdp">欢迎来到极客学院</p>
+                            <p class="fourthp"><span class="inputone">登录</span><span class="inputtwo">注册</span></p>
+                        </li>
+                        <li class="thirdli">
+                            <ul id="needhidul">
+                                <li class="forhover">
+                                    <span class="questionicon"></span>
+                                    <span>问答</span>
+                                    <span class="anglebottom"></span>
+                                </li>
+                                <li class="forhover">
+                                    <span class="wikiicon"></span>
+                                    <span>wiki</span>
+                                    <span class="anglebottom"></span>
+                                </li>
+                                <li class="forhover">
+                                    <span class="lessionicon"></span>
+                                    <span>课程</span>
+                                    <span class="anglebottom"></span>
+                                </li>
+                                <li class="forhover">
+                                    <span class="groupicon"></span>
+                                    <span>社群</span>
+                                    <span class="anglebottom"></span>
+                                </li>
+                                <li>
+                                    <a href="http://download.jikexueyuan.com/">
+                                        <span class="downloadicon"></span>
+                                        <span>下载</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.jikexueyuan.com/path/">
+                                        <span class="knowicon"></span>
+                                        <span>知识</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://ke.jikexueyuan.com/zhiye/">
+                                        <span class="occupationicon"></span>
+                                        <span>职业</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.jikexueyuan.com/vip/">
+                                        <span class="vipicon"></span>
+                                        <span>VIP</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="hiddendiv">
+                                <ul id="navul">
+                                    <li id="afterhover0">问答</li>
+                                    <li id="afterhover1">wiki</li>
+                                    <li id="afterhover2">课程</li>
+                                    <li id="afterhover3">社群</li>
+                                </ul>
+                                <div id="hidquescon">
+                                    <ul id="conent0">
+                                        <li style="border: none;white-space: nowrap;">
+                                            <a>
+                                                <img src="imgs/article/thqu1.png" width="16px">
+                                                <span>【问答技巧】怎样提问才能让我的问题更快速被解答？</span>
+                                            </a>
+                                        </li>
+                                        <li style="border: none;width: 208px;white-space: nowrap; ">
+                                            <a>
+                                                <img src="imgs/article/thqu1.png" width="16px">
+                                                <span>【问答技巧】怎样提问才能让我的问题更快速被解答？</span>
+                                            </a>
+                                        </li>
+                                        <li style="border: none;width: 208px;white-space: nowrap; ">
+                                            <a>
+                                                <img src="imgs/article/thqu1.png" width="16px">
+                                                <span>【问答技巧】怎样提问才能让我的问题更快速被解答？</span>
+                                            </a>
+                                        </li>
+                                        <li style="border: none;width: 208px;white-space: nowrap; ">
+                                            <a>
+                                                <img src="imgs/article/thqu1.png" width="16px">
+                                                <span>【问答技巧】怎样提问才能让我的问题更快速被解答？</span>
+                                            </a>
+                                        </li>
+                                        <li style="border: none;width: 208px;white-space: nowrap;">
+                                            <a>
+                                                <img src="imgs/article/thqu1.png" width="16px">
+                                                <span>【问答技巧】怎样提问才能让我的问题更快速被解答？</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div id="hidwiki">
+                                        <ul id="conent1">
+                                            <li>
+                                                <a href="http://wiki.jikexueyuan.com/project/linux-in-eye-of-java/?hmsr=www_index_wiki">
+                                                    <img src="imgs/article/linux.jpg" width="55" height="73">
+                                                    <p>Java 程序员眼中的linux</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://wiki.jikexueyuan.com/project/linux-in-eye-of-java/?hmsr=www_index_wiki">
+                                                    <img src="imgs/article/linux.jpg" width="55" height="73">
+                                                    <p>Java 程序员眼中的linux</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://wiki.jikexueyuan.com/project/linux-in-eye-of-java/?hmsr=www_index_wiki">
+                                                    <img src="imgs/article/linux.jpg" width="55" height="73">
+                                                    <p>Java 程序员眼中的linux</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="hidlession">
+                                        <ul id="conent2">
+                                            <li>
+                                                <a href="http://www.jikexueyuan.com/path/html5/">
+                                                    <img src="imgs/article/html.png" width="30">
+                                                    <p>HTML5开发</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.jikexueyuan.com/path/html5/">
+                                                    <img src="imgs/article/html.png" width="30">
+                                                    <p>HTML5开发</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.jikexueyuan.com/path/html5/">
+                                                    <img src="imgs/article/html.png" width="30">
+                                                    <p>HTML5开发</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.jikexueyuan.com/path/html5/">
+                                                    <img src="imgs/article/html.png" width="30">
+                                                    <p>HTML5开发</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="hidgroup">
+                                        <ul id="conent3">
+                                            <li>
+                                                <img src="imgs/article/bandroid.png" width="32">
+                                                <div>
+                                                    <p class="title">Android工程师</p>
+                                                    <p class="count">已有839人加入</p>
+                                                </div>
+                                                <a href="http://qun.jikexueyuan.com/android">+ 加入</a>
+                                            </li>
+                                            <li>
+                                                <img src="imgs/article/bandroid.png" width="32">
+                                                <div>
+                                                    <p class="title">Android工程师</p>
+                                                    <p class="count">已有839人加入</p>
+                                                </div>
+                                                <a href="http://qun.jikexueyuan.com/android">+ 加入</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--      <div class="newsbox">
+           <div class="newbox1">
+               快讯 免费阅读图文教程 送Kindle 精品系列课程限免中！不要错过！ 狂送 HTML5与CSS3权威指南 贩卖碎片时间，轻松月入5000
+           </div>
+           <div class="newbox2">
+               Hi! 你好 欢迎来到极客学院 登录 注册
+           </div>
+           <div class="newbox3">
+               问答wiki课程社群
+           </div>
+       </div> -->
+        </section>
+        <section class="moon">
+            <div class="moonleft">
+                <img src="imgs/article/live_0269111.png" width="206">
+            </div>
+            <div class="moonright">
+                <ul>
+                    <li class="topbottomb">3月28日「周一」</li>
+                    <li class="hoverfun1 topbottomb">3月29日「周二」</li>
+                    <li class="topbottomb">3月30日「周三」</li>
+                    <li class="topbottomb">3月31日「周四」</li>
+                    <li class="topbottomb">4月01日「周五」</li>
+                </ul>
+                <div class="moonimg">
+                    <img src="imgs/article/328.jpg" class="imghidden">
+                    <img src="imgs/article/329.jpg">
+                    <img src="imgs/article/328.jpg" class="imghidden">
+                    <img src="imgs/article/329.jpg" class="imghidden">
+                    <img src="imgs/article/328.jpg" class="imghidden">
+                </div>
+            </div>
+        </section>
+        <!--  课程展示 -->
+        <section class="classshow">
+            <ul>
+                <li class="ullibackground classshowulli">热门推荐</li>
+                <li class="classshowulli">最新课程</li>
+                <li class="classshowulli">免费课程</li>
+                <li class="classshowulli">项目实战</li>
+                <li class="classshowulli">全球首发</li>
+                <li class="classshowulli">企业合作</li>
+            </ul>
+            <div class="classshows" >
+                <ul>
+                    <li>
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/txcloud.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/flume.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/txcloud.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/flume.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/txcloud.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/flume.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/txcloud.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/flume.jpg"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">Ext JS 核心概念</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/txcloud.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/flume.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/txcloud.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/flume.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/txcloud.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/flume.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2633.html"><img src="imgs/article/txcloud.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="limarginl">
+                        <a href="http://www.jikexueyuan.com/course/2629.html"><img src="imgs/article/flume.jpg" width="233"><img src="imgs/article/zhaozi.jpg" class="zhaozi">
+                            <div class="stretchdiv">
+                                <div class="parentdiv">
+                                    <h2 class="divh2">OSG 工作机制</h2>
+                                    <p class="divp">
+                                        本课程将为大家讲解在进行 Ext JS 开发前，需要学习了解的几个核心概念。在开始学习阶段需要先做到心中有理解，在后续的学习中，再进行详细的理解与实践。
+                                    </p>
+                                    <div class="divson">
+                                        <p class="fp"><img src="imgs/article/clock.png" width="14" />&nbsp;5课时&nbsp;53分钟</p>
+                                        <p class="sp">2384人学习</p>
+                                        <p class="tp"><img src="imgs/article/oneji.png" width="14" />&nbsp;初级</p>
+                                        <p class="fop"><img src="imgs/article/tools.png" width="16" height="16"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="careeroad">
+            <a href="http://ke.jikexueyuan.com/zhiye/" class="careeheader">职业路径图</a>
+            <span class="question">?</span>
+            <span class="carsystem">更系统的职业技能学习路径</span>
+            <a href="http://ke.jikexueyuan.com/zhiye/" class="careemore">更多>></a>
+            <div class="careesondiv">
+                <a href="" class="sondivaborder"><img src="imgs/article/html5.png" width="197">
+                    <h2>WEB大前端工程师</h2>
+                    <p>月薪15k-30k</p>
+                    <p>Web开发的未来趋势</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder"><img src="imgs/article/android5.png" width="197">
+                    <h2>Android工程师</h2>
+                    <p>月薪5k-30k</p>
+                    <p>最火爆的职业 人才缺口大</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder"><img src="imgs/article/html5.png" width="197">
+                    <h2>WEB大前端工程师</h2>
+                    <p>月薪15k-30k</p>
+                    <p>Web开发的未来趋势</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder"><img src="imgs/article/android5.png" width="197">
+                    <h2>Android工程师</h2>
+                    <p>月薪5k-30k</p>
+                    <p>最火爆的职业 人才缺口大</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder sondivaborderlast"><img src="imgs/article/html5.png" width="197">
+                    <h2>WEB大前端工程师</h2>
+                    <p>月薪15k-30k</p>
+                    <p>Web开发的未来趋势</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder sondivaborderbottom"><img src="imgs/article/android5.png" width="197">
+                    <h2>Android工程师</h2>
+                    <p>月薪5k-30k</p>
+                    <p>最火爆的职业 人才缺口大</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder sondivaborderbottom"><img src="imgs/article/html5.png" width="197">
+                    <h2>WEB大前端工程师</h2>
+                    <p>月薪15k-30k</p>
+                    <p>Web开发的未来趋势</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder sondivaborderbottom"><img src="imgs/article/android5.png" width="197">
+                    <h2>Android工程师</h2>
+                    <p>月薪5k-30k</p>
+                    <p>最火爆的职业 人才缺口大</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder sondivaborderbottom"><img src="imgs/article/html5.png" width="197">
+                    <h2>WEB大前端工程师</h2>
+                    <p>月薪15k-30k</p>
+                    <p>Web开发的未来趋势</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+                <a href="" class="sondivaborder sondivaborderbottom sondivaborderlast"><img src="imgs/article/android5.png" width="197">
+                    <h2>Android工程师</h2>
+                    <p>月薪5k-30k</p>
+                    <p>最火爆的职业 人才缺口大</p>
+                    <button class="sondivbutton">立即学习</button>
+                </a>
+            </div>
+        </section>
+        <!-- 知识体系图 -->
+        <section class="knowsys">
+            <a href="http://www.jikexueyuan.com/path/" class="knowsystitle">知识体系图</a>
+            <span class="sysquestion">？</span>
+            <span class="questionans">更快速找到你需要的课程</span>
+            <a href="http://www.jikexueyuan.com/path/" class="sysmore">更多>></a>
+            <ul>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="sixborder">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="sixborder">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="sixborder">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="lastcolumn">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="lastcolumn">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="lastcolumn">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="lastcolumn">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="lastcolumn">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/htmlk.png">
+                                <p class="firstp">HTML5开发</p>
+                                <p class="secondp">116门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="sixborder lastcolumn">
+                    <div class="fbparent">
+                        <div class="front">
+                            <a href=""><img src="imgs/article/androidk.png">
+                                <p class="firstp">Android</p>
+                                <p class="secondp">90门课程</p>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <p>919215人已学习</p>
+                            <button>立即学习</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- 精品系列课程         -->
+        <section class="betterclass">
+            <a href="" class="betterclasshead">精品系列课程</a>
+            <span class="betterclasstip">?</span>
+            <span class="betterclasstipans">更相关的课程，更有序的学习</span>
+            <a class="betterclassmore" href="http://ke.jikexueyuan.com/xilie/">更多>></a>
+            <div>
+                <ul>
+                    <li>
+                        <div class="marginleft">
+                            <p>java&nbsp;设计模式</p>
+                            <img src="imgs/article/betterclass.jpg" width="201">
+                            <span>24门 76849人学习</span>
+                            <button>收藏</button>
+                        </div>
+                        <div class="atoncestudy">
+                            <a href="http://my.jikexueyuan.com/hexter"><img src="imgs/article/hexter.jpg" width="50"></a>
+                            <p class="atoncestudyfp"><a href="http://my.jikexueyuan.com/hexter">hexter</a></p>
+                            <p class="atoncestudysp"><a href="http://ke.jikexueyuan.com/xilie/6">按照一个模式一个课程的方式讲解23种设计模式。
+每个模式讲3-4节课，从模拟项目设计引入设计模式设计方案，并有详细示例代码和效果演示。</a></p>
+                            <span><a href="http://ke.jikexueyuan.com/xilie/6">马上学习</a></span>
+                        </div>
+                    </li>
+                    <li class="betterclassleftgap">
+                        <div class="marginleft">
+                            <p>java&nbsp;设计模式</p>
+                            <img src="imgs/article/betterclass.jpg" width="201">
+                            <span>24门 76849人学习</span>
+                            <button>收藏</button>
+                        </div>
+                        <div class="atoncestudy">
+                            <a href="http://my.jikexueyuan.com/hexter"><img src="imgs/article/hexter.jpg" width="50"></a>
+                            <p class="atoncestudyfp"><a href="http://my.jikexueyuan.com/hexter">hexter</a></p>
+                            <p class="atoncestudysp"><a href="http://ke.jikexueyuan.com/xilie/6">按照一个模式一个课程的方式讲解23种设计模式。
+每个模式讲3-4节课，从模拟项目设计引入设计模式设计方案，并有详细示例代码和效果演示。</a></p>
+                            <span><a href="http://ke.jikexueyuan.com/xilie/6">马上学习</a></span>
+                        </div>
+                    </li>
+                    <li class="betterclassleftgap">
+                        <div class="marginleft">
+                            <p>java&nbsp;设计模式</p>
+                            <img src="imgs/article/betterclass.jpg" width="201">
+                            <span>24门 76849人学习</span>
+                            <button>收藏</button>
+                        </div>
+                        <div class="atoncestudy">
+                            <a href="http://my.jikexueyuan.com/hexter"><img src="imgs/article/hexter.jpg" width="50"></a>
+                            <p class="atoncestudyfp"><a href="http://my.jikexueyuan.com/hexter">hexter</a></p>
+                            <p class="atoncestudysp"><a href="http://ke.jikexueyuan.com/xilie/6">按照一个模式一个课程的方式讲解23种设计模式。
+每个模式讲3-4节课，从模拟项目设计引入设计模式设计方案，并有详细示例代码和效果演示。</a></p>
+                            <span><a href="http://ke.jikexueyuan.com/xilie/6">马上学习</a></span>
+                        </div>
+                    </li>
+                    <li class="betterclassleftgap">
+                        <div class="marginleft">
+                            <p>java&nbsp;设计模式</p>
+                            <img src="imgs/article/betterclass.jpg" width="201">
+                            <span>24门 76849人学习</span>
+                            <button>收藏</button>
+                        </div>
+                        <div class="atoncestudy">
+                            <a href="http://my.jikexueyuan.com/hexter"><img src="imgs/article/hexter.jpg" width="50"></a>
+                            <p class="atoncestudyfp"><a href="http://my.jikexueyuan.com/hexter">hexter</a></p>
+                            <p class="atoncestudysp"><a href="http://ke.jikexueyuan.com/xilie/6">按照一个模式一个课程的方式讲解23种设计模式。
+每个模式讲3-4节课，从模拟项目设计引入设计模式设计方案，并有详细示例代码和效果演示。</a></p>
+                            <span><a href="http://ke.jikexueyuan.com/xilie/6">马上学习</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--wiki部分-->
+        <section class="wiki">
+            <a class="wikihead">Wiki</a>
+            <span class="wikitip">?</span>
+            <span class="wikitipans">IT技术图文教程库</span>
+            <a class="wikimore">更多>></a>
+            <ul class="wikisonul">
+                <li class="liorder">
+                    <div class="wikifirstdiv">
+                        <p class="wikifirstp">推荐</p>
+                        <div style="margin-top: 10px">
+                            <dl>
+                                <dd>
+                                    <a href="http://wiki.jikexueyuan.com/project/linux-in-eye-of-java/?hmsr=www_index_wiki" class="wikiddsona">
+                                        <div>
+                                            <i class="lookal"></i>
+                                            <img src="imgs/article/linux.jpg" width="142">
+                                        </div>
+                                        <h2>Java 程序员眼中的 Linux</h2>
+                                        <span>120页/30章</span>
+                                    </a>
+                                </dd>
+                                <dd style="margin-left: 15px;">
+                                    <a href="http://wiki.jikexueyuan.com/project/django-set-up-blog/?hmsr=www_index_wiki" class="wikiddsona">
+                                        <div>
+                                            <i class="lookal"></i>
+                                            <img src="imgs/article/djiang.jpg" width="142" height="196">
+                                        </div>
+                                        <h2>Django 搭建博客</h2>
+                                        <span>70页/13章</span>
+                                    </a>
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <a href="http://wiki.jikexueyuan.com/project/lua/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· Lua 教程</p>
+                                        <span>96页/25章</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://wiki.jikexueyuan.com/project/ios-human-interface-guidelines/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· iOS人机交互指南</p>
+                                        <span>294页/48章</span></li>
+                                </a>
+                                <li id="lastlipad">
+                                    <a href="http://wiki.jikexueyuan.com/project/struts-2/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· Struts 2 教程</p>
+                                        <span>154页/31章</span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="liorder">
+                    <div class="wikifirstdiv">
+                        <p class="wikifirstp">推荐</p>
+                        <div style="margin-top: 10px">
+                            <dl>
+                                <dd>
+                                    <a href="http://wiki.jikexueyuan.com/project/linux-in-eye-of-java/?hmsr=www_index_wiki" class="wikiddsona">
+                                        <div>
+                                            <i class="lookal"></i>
+                                            <img src="imgs/article/linux.jpg" width="142">
+                                        </div>
+                                        <h2>Java 程序员眼中的 Linux</h2>
+                                        <span>120页/30章</span>
+                                    </a>
+                                </dd>
+                                <dd style="margin-left: 15px;">
+                                    <a href="http://wiki.jikexueyuan.com/project/django-set-up-blog/?hmsr=www_index_wiki" class="wikiddsona">
+                                        <div>
+                                            <i class="lookal"></i>
+                                            <img src="imgs/article/djiang.jpg" width="142" height="196">
+                                        </div>
+                                        <h2>Django 搭建博客</h2>
+                                        <span>70页/13章</span>
+                                    </a>
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <a href="http://wiki.jikexueyuan.com/project/lua/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· Lua 教程</p>
+                                        <span>96页/25章</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://wiki.jikexueyuan.com/project/ios-human-interface-guidelines/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· iOS人机交互指南</p>
+                                        <span>294页/48章</span></li>
+                                </a>
+                                <li id="lastlipad">
+                                    <a href="http://wiki.jikexueyuan.com/project/struts-2/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· Struts 2 教程</p>
+                                        <span>154页/31章</span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="lastlibor liorder">
+                    <div class="wikifirstdiv">
+                        <p class="wikifirstp">推荐</p>
+                        <div style="margin-top: 10px">
+                            <dl>
+                                <dd>
+                                    <a href="http://wiki.jikexueyuan.com/project/linux-in-eye-of-java/?hmsr=www_index_wiki" class="wikiddsona">
+                                        <div>
+                                            <i class="lookal"></i>
+                                            <img src="imgs/article/linux.jpg" width="142">
+                                        </div>
+                                        <h2>Java 程序员眼中的 Linux</h2>
+                                        <span>120页/30章</span>
+                                    </a>
+                                </dd>
+                                <dd style="margin-left: 15px;">
+                                    <a href="http://wiki.jikexueyuan.com/project/django-set-up-blog/?hmsr=www_index_wiki" class="wikiddsona">
+                                        <div>
+                                            <i class="lookal"></i>
+                                            <img src="imgs/article/djiang.jpg" width="142" height="196">
+                                        </div>
+                                        <h2>Django 搭建博客</h2>
+                                        <span>70页/13章</span>
+                                    </a>
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <a href="http://wiki.jikexueyuan.com/project/lua/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· Lua 教程</p>
+                                        <span>96页/25章</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://wiki.jikexueyuan.com/project/ios-human-interface-guidelines/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· iOS人机交互指南</p>
+                                        <span>294页/48章</span></li>
+                                </a>
+                                <li id="lastlipad">
+                                    <a href="http://wiki.jikexueyuan.com/project/struts-2/?hmsr=www_index_wiki">
+                                        <p style="float: right;">· Struts 2 教程</p>
+                                        <span>154页/31章</span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="strage">
+        </section>
+        <section class="gotop">
+            <a href="#top"><span class="firstsp"></span></a>
+            <a href="http://www.jikexueyuan.com/app/">
+                <span class="phone"></span>
+            </a>
+            <a class="check" href="http://www.sojump.com/jq/5450574.aspx">
+            </a>
+            <span class="secondsp"></span>
+        </section>
+    </article>
+    <footer>
+        <img src="imgs/article/footer.jpg">
+    </footer>
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="js/pc.js"></script>
+</body>
+
+</html>
