@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>索尼中国</title>
+<meta charset="utf-8">
+<link  type ="text/css" rel="stylesheet" href="../jike/style.css">
+<script type="text/javascript" src="../jike/public/js/jquery-2.2.4.js"></script>
+<script type="text/javascript">
+</script>
+<style>
+body{text-align:center;}
+*{margin:0px;padding:0px;cursor:pointer;}
+div{margin:0px auto;width:100%;clear:both;text-align:center;}
+li{list-style:none;clear:both;}
+span{width:200px;height:40px;display:block;border:1px solid #000;float:left;text-align:center;vertical-align:middle;}
+.jingshan{background-color:red;}
+</style>
+</head>
+<body>
+<div>
+<ul>
+	<li id="li_1"><span class="class1">class1</span><span class="class1">class1</span><span class="class1">class1</span></li>
+	<li id="li_2"><span class="class2">class2</span><span class="class2">class2</span><span class="class2">class2</span></li>
+	<li id="li_3"><span class="ID1">ID1</span><span class="ID1">ID2</span><span class="ID1">ID3</span></li>
+	<li id="li_4"><span >normal</span><span >normal</span><span >normal</span></li>
+	<li id="li_5"><span ><a href="http://www.baidu.com">百度</a></span><span>新浪</span><span>阿里</span></li>
+</ul>
+</div>
+<br/><br/>
+<hr/>
+<h2>这里是操作按钮区域</h2>
+<span id="sp1">ID1选择器</span>
+<span id="sp2">ID2选择器</span>
+<span id="sp3">ID3选择器</span>
+</body>
+<script>
+//$(document).ready(function(){alert("it word");});
+//$(function(){alert("it work");});
+
+//$(function(){
+//	$("#sp1").click(function(){
+//		alert("it work")});});
+
+
+$(function(){
+	$("#sp1").click(function(){
+		$("#ID1").toggleClass('jingshan');
+	})
+});
+
+$(function(){
+	$("#sp2").click(function(){
+		$("#ID2").toggleClass('jingshan');
+	})
+});
+$(function(){
+	$("#sp3").click(function(){
+		$("#ID3").toggleClass('jingshan');
+	})
+});	
+</script>
+
+</html>
