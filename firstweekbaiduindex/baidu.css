@@ -1,0 +1,50 @@
+
+    * {
+        margin: 0;
+        padding:0;
+    }
+    
+    #posi {
+        margin: auto;
+        width: 700px;
+        height: 293px;
+    }
+    
+    #image {
+        margin-top: 48px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    
+    #mid ul {
+        list-style: none;
+        margin-left: 8px;
+    }
+    
+    #wipe {
+        clear: both;
+
+    }
+    
+    #mid ul li {
+        float: left;
+        margin-left: 13px;
+        margin-bottom: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text_box {
+        width: 540px;
+        height: 40px;
+        padding-left: 8px;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    .resetsubmit {
+        height: 44px;
+        width: 102px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    

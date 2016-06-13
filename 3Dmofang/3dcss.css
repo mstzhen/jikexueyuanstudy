@@ -1,0 +1,574 @@
+body {
+    -webkit-perspective: 10000px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    
+    margin:200px auto;
+    width: 281px;
+    -webkit-animation-name: animation;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 12s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: 140.5px 140.5px 0px;
+    -webkit-transform: rotateX(-30deg)  rotateY(30deg);
+    animation-name: animation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 140.5px 140.5px 0px;
+    transform: rotateX(-30deg)  rotateY(30deg);
+}
+/* 动画代码 */
+@-webkit-keyframes animation{
+    15%{
+        -webkit-transform:rotateY(-135deg);
+    }
+    30%{-webkit-transform:rotateY(90deg) rotateZ(135deg);}
+    45%{-webkit-transform:rotateY(225deg) rotateZ(135deg);}
+    60%{-webkit-transform:rotateY(135deg) rotateX(135deg) ;}
+    75%{-webkit-transform:rotateX(135deg) rotateY(225deg);}
+    90%{-webkit-transform:rotateX(-135deg) ;}
+}
+
+/* 兼容firefox浏览器 */
+@-moz-keyframes animation{
+    15%{
+        -moz-transform:rotateY(-135deg);
+    }
+    30%{-moz-transform:rotateY(90deg) rotateZ(135deg);}
+    45%{-moz-transform:rotateY(225deg) rotateZ(135deg);}
+    60%{-moz-transform:rotateY(135deg) rotateX(135deg) ;}
+    75%{-moz-transform:rotateX(135deg) rotateY(225deg);}
+    90%{-moz-transform:rotateX(-135deg) ;}
+}
+/* 兼容其它非webkit内核浏览器 */
+@keyframes animation{
+    15%{
+        -transform:rotateY(-135deg);
+    }
+    30%{transform:rotateY(90deg) rotateZ(135deg);}
+    45%{transform:rotateY(225deg) rotateZ(135deg);}
+    60%{transform:rotateY(135deg) rotateX(135deg) ;}
+    75%{transform:rotateX(135deg) rotateY(225deg);}
+    90%{transform:rotateX(-135deg) ;}
+}
+
+/* 前面设置 */
+.wrap .front {
+    width: 281px;
+    height: 281px;
+    border: 2px solid;
+    position: absolute;
+    -webkit-transform: translateZ(140.5px);
+    transform: translateZ(140.5px);
+    opacity: .5;
+}
+
+ .front .son1 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #0000FF;
+}
+
+ .front .son2 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #0000FF;
+}
+
+.front .son3 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #0000FF;
+}
+
+.front .son4 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color:#0000FF;
+}
+
+.front .son5 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #0000FF;
+}
+
+.front .son6 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #0000FF;
+}
+
+.front .son7 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #0000FF;
+}
+
+.front .son8 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #0000FF;
+}
+
+.front .son9 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    background-color: #0000FF;
+}
+
+/* 下面设置 */
+.wrap .bottom {
+    width: 281px;
+    height: 281px;
+    border: 2px solid;
+    -webkit-transform: rotateX(-90deg) translateZ(141.5px);
+    transform: rotateX(-90deg) translateZ(141.5px);
+    position: absolute;
+      opacity: .5;
+}
+
+.bottom .son1 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son2 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son3 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son4 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son5 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son6 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son7 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    background-color: #fff;
+    border-right: 4px solid;
+}
+
+.bottom .son8 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #fff;
+}
+
+.bottom .son9 {
+    width: 91px;
+    height: 91px;
+    background-color: #fff;
+    float: left;
+}
+
+/* 上面设置 */
+.wrap .top {
+    width: 281px;
+    height: 281px;
+    border: 2px solid;
+    -webkit-transform: rotateX(90deg) translateZ(140.5px);
+    transform: rotateX(90deg) translateZ(140.5px);
+      opacity: .5;
+}
+
+.top .son1 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son2 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son3 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son4 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son5 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son6 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son7 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    background-color: #FFFF00;
+    border-right: 4px solid;
+}
+
+.top .son8 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #FFFF00;
+}
+
+.top .son9 {
+    width: 91px;
+    height: 91px;
+    background-color: #FFFF00;
+    float: left;
+}
+
+/*左面设置*/
+.wrap .left {
+    width: 281px;
+    height: 281px;
+    border: 2px solid;
+    -webkit-transform: rotateY(-90deg) translateZ(140.5px) translateY(-285px);
+    transform: rotateY(-90deg) translateZ(140.5px) translateY(-285px);
+      opacity: .5;
+}
+
+.left .son1 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son2 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son3 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son4 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son5 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son6 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son7 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    background-color: #FFA500;
+    border-right: 4px solid;
+}
+
+.left .son8 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #FFA500;
+}
+
+.left .son9 {
+    width: 91px;
+    height: 91px;
+    background-color: #FFA500;
+    float: left;
+}
+
+/* 右面设置 */
+.wrap .right {
+    width: 281px;
+    height: 281px;
+    border: 2px solid;
+    -webkit-transform: rotateY(90deg) translateZ(140.5px) translateY(-569px);
+    transform: rotateY(90deg) translateZ(140.5px) translateY(-569px);
+      opacity: .5;
+}
+
+.right .son1 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FF0000;
+}
+
+.right .son2 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FF0000;
+}
+
+.right .son3 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color:#FF0000;
+}
+
+.right .son4 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FF0000;
+}
+
+.right .son5 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #FF0000;
+}
+
+.right .son6 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #FF0000;
+}
+
+.right .son7 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    background-color: #FF0000;
+    border-right: 4px solid;
+}
+
+.right .son8 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #FF0000;
+}
+
+.right .son9 {
+    width: 91px;
+    height: 91px;
+    background-color: #FF0000;
+    float: left;
+}
+
+/* 下面设置 */
+.wrap .back {
+    width: 281px;
+    height: 281px;
+    border: 2px solid;
+    -webkit-transform: translateZ(-140.5px) translateY(-854.5px) translateX(-0.5px);
+    transform: translateZ(-140.5px) translateY(-854.5px) translateX(-0.5px);
+      opacity: .5;
+}
+
+.back .son1 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #008000;
+}
+
+.back .son2 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #008000;
+}
+
+.back .son3 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #008000;
+}
+
+.back .son4 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color: #008000;
+}
+
+.back .son5 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    background-color:#008000;
+}
+
+.back .son6 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-bottom: 4px solid;
+    background-color: #008000;
+}
+
+.back .son7 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    background-color: #008000;
+    border-right: 4px solid;
+}
+
+.back .son8 {
+    width: 91px;
+    height: 91px;
+    float: left;
+    border-right: 4px solid;
+    background-color: #008000;
+}
+
+.back .son9 {
+    width: 91px;
+    height: 91px;
+    background-color:#008000;
+    float: left;
+}

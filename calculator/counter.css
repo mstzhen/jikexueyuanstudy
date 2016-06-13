@@ -1,0 +1,219 @@
+
+h2{
+    text-align: center;
+    width: 100%;
+}
+/* 计算器背景设置 */
+.imgcenter {
+    margin: 0 auto;
+    background: url(imgs/750x655.jpg);
+    width: 536px;
+    height: 540px;
+    position: relative;
+}
+/* 计算器css 以及css兼容ie*/
+.wrap {
+    width: 460px;
+    height: 454px;
+    background: linear-gradient(#fefefe, #c4c4c4);
+
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#fefefe",endColorStr="#c4c4c4",gradientType="0"); 
+    top: 32px;
+    left: 28px;
+    position: absolute;
+    border-radius: 6px;
+    float: left;
+    border: 1px solid #898a8c;
+
+}
+/* 输入input设置 */
+#resetin {
+    width: 426px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #afafaf;
+    outline: none;
+    font-size: 44px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+    padding-right: 4px;
+    font-family: Times New Roman;
+    text-align: right;
+    box-shadow: 0px 4px 6px -2px #65645a inset;
+}
+
+ul {
+    list-style: none;
+    margin-left: -39px;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+    width: 71px;
+    height: 46px;
+    border: 1px solid #898a8c;
+    margin-left: 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+#specialli {
+    width: 71px;
+    height: 108px;
+}
+
+#repairul {
+    position: relative;
+    top: -64px;
+}
+
+.standard {
+    width: 26px;
+    height: 64px;
+    border: 1px solid #898a8c;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: linear-gradient(#fefefe, #c4c4c4);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#fefefe",endColorStr="#c4c4c4",gradientType="0"); 
+    position: absolute;
+    top: 48px;
+    left: 489px;
+}
+
+.standard p {
+    margin-left: 6px;
+    font-size: 12px;
+    margin-top: 17px;
+    color: #2c2c2c;
+}
+
+.backgroundone {
+    background: linear-gradient(#bbdfed, #4fb0dd);
+     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#bbdfed",endColorStr="#4fb0dd",gradientType="0"); 
+}
+
+.backgroundone .wipe {
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #faec07;
+    border-bottom: 10px solid transparent;
+    opacity: 0.8;
+}
+
+.backgroundone .after {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: #faec07;
+    opacity: 0.8;
+    position: relative;
+    top: -2px;
+}
+
+#repairone {
+    color: #fff;
+    margin-left: 4px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.backgroundone p {
+    color: #faec07;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+li[class="backgroundone"]:active {
+    background: linear-gradient(#4fb0dd, #bbdfed);
+}
+
+.backgroundtwo {
+    background: linear-gradient(#4d4d4d, #2f2f2f);
+     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#4d4d4d",endColorStr="#2f2f2f",gradientType="0");
+}
+
+.backgroundtwoson1 {
+    display: inline-block;
+    width: 71px;
+    height: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 46px;
+    letter-spacing: -2px;
+    border-top: 1px solid #8e8e8e;
+    border-radius: 2px;
+}
+
+.backgroundtwoson2 {
+    display: inline-block;
+    width: 71px;
+    height: 108px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 108px;
+    border-top: 1px solid #8e8e8e;
+    border-radius: 2px;
+}
+
+#repairtwo {
+    position: relative;
+    top: -8px;
+    left: -7px;
+}
+
+li[class="backgroundtwo"]:active {
+    background: linear-gradient(#2f2f2f, #4d4d4d);
+}
+
+.backgroundthree {
+    background: linear-gradient(#eeeeef, #bcbec3);
+     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#eeeeef",endColorStr="#bcbec3",gradientType="0");
+}
+
+.backgroundthree span {
+    display: inline-block;
+    width: 71px;
+    height: 46px;
+    text-align: center;
+    color: #606060;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 46px;
+}
+
+.backgroundfour span {
+    display: inline-block;
+    width: 71px;
+    height: 46px;
+    text-align: center;
+    color: #606060;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 46px;
+}
+
+li[class="backgroundthree"]:active {
+    background: linear-gradient(#bcbec3, #eeeeef);
+}
+
+.backgroundfour {
+    background: linear-gradient(#9fa6ab, #757d83);
+     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#9fa6ab",endColorStr="#757d83",gradientType="0");
+}
+
+li[class="backgroundfour"]:active {
+    background: linear-gradient(#757d83, #9fa6ab);
+}
