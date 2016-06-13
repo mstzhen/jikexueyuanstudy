@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>管理后台</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: #ececec;
+    }
+    
+    .container-fluid {
+        background: #333e50;
+        color: #fff;
+        height: 60px;
+        line-height: 60px;
+        min-width: 400px;
+    }
+    
+    .row {
+        position: relative;
+    }
+    
+    .logo {
+        position: relative;
+        top: -3px;
+    }
+    
+    .logoinfo {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    
+    .gap {
+        width: 1px;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        right: 210px;
+        height: 60px;
+    }
+    
+    .admin {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .adminname {
+        position: relative;
+        left: -20px;
+        top: 0px;
+    }
+    
+    .adminname img {
+        position: relative;
+        top: 2px;
+        left: 4px;
+    }
+    
+    .offbutton {
+        background: #00af52;
+        display: inline-block;
+        height: 60px;
+        width: 66px;
+    }
+    
+    .buttonimg {
+        position: relative;
+        top: 0px;
+        left: 16px;
+    }
+    /* 新闻操作     */
+    
+    .increase {
+        background: #f5f5f5;
+        margin-top: 10px;
+        border-bottom: 1px solid transparent;
+        height: 38px;
+        line-height: 38px;
+        font-size: 18px;
+        font-weight: bold;
+        border:
+    }
+    
+    .increase span {
+        color: #d83f35 !important;
+    }
+    
+    .increasecon {
+        background: #fff;
+        height: 280px;
+    }
+    
+    .increasecon label {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .increasecongap {
+        margin-top: 10px;
+    }
+    
+    .titleinput {
+        width: 100%;
+        height: 34px;
+        border-radius: 5px;
+    }
+    
+    .introduceinput {
+        width: 100%;
+        height: 74px;
+        border-radius: 5px;
+    }
+    
+    .fffback {
+        background: #fff;
+    }
+    
+    .conhead {
+        font-weight: bold;
+        border: 1px solid #fff;
+    }
+    
+    .border {
+        border: 1px solid #fff;
+    }
+    
+    .border td {
+        padding-left: 14px;
+        border: 1px solid #fff;
+    }
+    .border td strong{
+    	color: #337ab7;
+    }
+    .tablewidth {
+        width: 100%;
+    }
+    
+    .saveincrease {
+        width: 58px;
+        height: 30px;
+        background: #337ab7;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        margin-top: 8px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div>
+                <img src="images/logo.gif" class="logo"><span class="logoinfo">后台管理CMS</span>
+            </div>
+            <div class="gap">
+            </div>
+            <div class="admin">
+                <p><span class="adminname">管理员：uimaker<img src="images/jt.gif"></span><span class="offbutton"><img src="images/off.gif" class="buttonimg"></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 increase"><span>[添加]</span>新闻</div>
+        </div>
+        <div class="row">
+            <form action="admin.php">
+                <div class="col-md-12 increasecon">
+                    <p class="increasecongap">
+                        <label>新闻分类：</label>
+                        <select name="channel">
+                            <option>推荐</option>
+                            <option>百家</option>
+                            <option>本地</option>
+                            <option>社会</option>
+                            <option>搞笑</option>
+                            <option>科技</option>
+                        </select>
+                    </p>
+                    <div>
+                        <label>新闻标题</label>
+                        <p>
+                            <input type="text" class="titleinput" placeholder="新闻标题" name="newstitle">
+                        </p>
+                    </div>
+                    <div>
+                        <label>新闻简介</label>
+                        <p>
+                            <input type="text" class="introduceinput" placeholder="新闻简介" name="newstrod">
+                        </p>
+                        <input type="submit" class="saveincrease" value="保存" >
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 increase"><span>[编辑/删除]</span>新闻</div>
+        </div>
+      
+        <div class="row">
+            <table class="border tablewidth">
+                <tr>
+                    <td><b>ID</b></td>
+                    <td><b>分类</b></td>
+                    <td><b>标题</b></td>
+                    <td><b>简介</b></td>
+                    <td><b></b></td>
+                    <td><b></b></td>
+                </tr>
+                <tr>
+                    <td>ID</td>
+                    <td>分类</td>
+                    <td>标题</td>
+                    <td>简介</td>
+                    <td><strong>[编辑]</strong></td>
+                    <td><strong>[删除]</strong></td>
+                </tr>
+                <tr>
+                    <td>ID</td>
+                    <td>分类</td>
+                    <td>标题</td>
+                    <td>简介</td>
+                     <td><strong>[编辑]</strong></td>
+                    <td><strong>[删除]</strong></td>
+                </tr>
+                <tr>
+                    <td>ID</td>
+                    <td>分类</td>
+                    <td>标题</td>
+                    <td>简介</td>
+                    <td><strong>[编辑]</strong></td>
+                    <td><strong>[删除]</strong></td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="js/admin.js"></script>
+</body>
+
+</html>

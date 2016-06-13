@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>管理后台</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div>
+                <img src="images/logo.gif" class="logo"><span class="logoinfo">后台管理CMS</span>
+            </div>
+            <div class="gap">
+            </div>
+            <div class="admin">
+                <p><span class="adminname">管理员：uimaker<img src="images/jt.gif"></span><span class="offbutton"><img src="images/off.gif" class="buttonimg"></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 increase"><span>[添加]</span>新闻</div>
+        </div>
+        <div class="row">
+          
+                <div class="col-md-12 increasecon">
+                    <p class="increasecongap">
+                        <label>新闻分类：</label>
+                        <select name="channel" id="channel">
+                            <option>推荐</option>
+                            <option>百家</option>
+                            <option>本地</option>
+                            <option>社会</option>
+                            <option>搞笑</option>
+                            <option>科技</option>
+                        </select>
+                    </p>
+                    <div>
+                        <label>新闻标题</label>
+                        <p>
+                            <input type="text" class="titleinput" id="titleinput" placeholder="新闻标题" name="newstitle">
+                        </p>
+                    </div>
+                    <div>
+                        <label>新闻简介</label>
+                        <p>
+                            <input type="text" class="introduceinput" id="introduceinput" placeholder="新闻简介" name="newstrod">
+                        </p>
+                        <input type="submit" class="saveincrease" value="保存" >
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 increase"><span>[编辑/删除]</span>新闻</div>
+        </div>
+      
+        <div class="row">
+            <table class="border tablewidth" id="moren">
+             <!--  <tr>
+                <td><b>ID</b></td>
+                <td style='width:50px'><b>分类</b></td>
+                <td><b>标题</b></td>
+                <td><b>简介</b></td>
+                <td style='width:80px'><b></b></td>
+                <td style='width:80px'><b></b></td>
+                          </tr>  -->
+              <!--  <tr>
+                  <td>ID</td>
+                  <td>分类</td>
+                  <td>标题</td>
+                  <td>简介</td>
+                  <td><strong>[编辑]</strong></td>
+                  <td><strong>[删除]</strong></td>
+              </tr>
+              <tr>
+                  <td>ID</td>
+                  <td>分类</td>
+                  <td>标题</td>
+                  <td>简介</td>
+                   <td><strong>[编辑]</strong></td>
+                  <td><strong>[删除]</strong></td>
+              </tr>
+              <tr>
+                  <td>ID</td>
+                  <td>分类</td>
+                  <td>标题</td>
+                  <td>简介</td>
+                  <td><strong>[编辑]</strong></td>
+                  <td><strong>[删除]</strong></td>
+              </tr> -->
+            </table>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="js/admin.js"></script>
+</body>
+
+</html>
